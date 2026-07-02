@@ -1,0 +1,37 @@
+{
+  "id": "alcanzando-las-estrellas",
+  "title": "Alcanzando las Estrellas",
+  "description": "Nucleo de ambientacion de ciencia ficcion adaptable, con integracion inicial para Starfinder Segunda Edicion.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "GamerFlix"
+    }
+  ],
+  "url": "https://github.com/AtsushiaiHiroshi/reaching-the-stars",
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/alcanzando-las-estrellas.css"
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Espanol",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "readme": "README.md",
+  "license": "LICENSE"
+}
