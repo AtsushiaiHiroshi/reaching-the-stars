@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "generatedFor": "Alcanzando las Estrellas",
+  "sources": [
+    {
+      "id": "sf1e-interstellar-species-local",
+      "title": "Starfinder Interstellar Species",
+      "edition": "Starfinder First Edition",
+      "localFilename": "PZO7120 Interstellar Species.pdf",
+      "bytes": 19282526,
+      "sha256": "339EB33357A2077FFF9E3585E53AC8D328F82AE14678E3B3F2546AA913B21841",
+      "pageCount": 194,
+      "reviewUse": "private source verification only",
+      "redistributeFile": false,
+      "verifiedEntries": [
+        {"subject":"Nuar","printedPage":92,"pdfPageIndexOneBased":93},
+        {"subject":"SRO","printedPage":126,"pdfPageIndexOneBased":127}
+      ]
+    },
+    {
+      "id": "sf1e-alien-archive-1-local",
+      "title": "Starfinder Alien Archive",
+      "edition": "Starfinder First Edition",
+      "localFilename": "Starfinder - Alien Archive 01.pdf",
+      "bytes": 20269939,
+      "sha256": "D36FA75648D0E70923DA778F041D1D88CFD590111B7E32884DEC1A7C4CA6470E",
+      "pageCount": 164,
+      "reviewUse": "private source verification only",
+      "redistributeFile": false,
+      "verifiedEntries": [
+        {"subject":"Gray","printedPage":56,"pdfPageIndexOneBased":58},
+        {"subject":"Reptoid","printedPage":92,"pdfPageIndexOneBased":94},
+        {"subject":"Verthani","printedPage":118,"pdfPageIndexOneBased":120},
+        {"subject":"Witchwyrd","printedPage":122,"pdfPageIndexOneBased":124}
+      ]
+    }
+  ]
+}

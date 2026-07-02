@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "auditDate": "2026-07-02",
+  "targetSystem": "sf2e-1.2.0",
+  "foundryVersion": "14.364",
+  "distributionRule": "Research records may name and cite sources. No source prose, artwork, or closed expression is redistributed.",
+  "entries": [
+    {
+      "name": "SRO",
+      "presentInInstalledSf2e": false,
+      "sourceLedgerId": "sf1e-interstellar-species-local",
+      "printedPage": 126,
+      "onlineReference": "https://www.aonsrd.com/Races.aspx?ItemName=SRO",
+      "sf1eConceptSignals": ["sapient construct", "variable Small or Medium chassis", "darkvision", "repair-compatible healing", "integrated equipment", "vacuum adaptation"],
+      "provisionalSf2eDirection": ["ancestry with configurable chassis heritages", "construct survivability benchmarked below full monster immunities", "integrated upgrade represented by ancestry feats rather than free scaling equipment", "repair and healing interaction expressed with existing SF2e traits"],
+      "settingConstraint": "Sapience is emergent or technological; no soul-granting deity is required.",
+      "distributionStatus": "blocked-pending-paizo-licensed-material-review"
+    },
+    {
+      "name": "Gray",
+      "presentInInstalledSf2e": false,
+      "sourceLedgerId": "sf1e-alien-archive-1-local",
+      "printedPage": 56,
+      "onlineReference": "https://www.aonsrd.com/Races.aspx?ItemName=Gray",
+      "sf1eConceptSignals": ["Small humanoid", "darkvision", "telepathy", "psychic aptitude", "brief phasing defense"],
+      "provisionalSf2eDirection": ["low-Hit-Point psychic ancestry", "limited telepathy as a baseline feature", "phase reaction moved to a limited ancestry feat", "psychic effects use innate occult spells or original actions"],
+      "settingConstraint": "Origin and motives must be rewritten for Alcanzando las Estrellas rather than importing Paizo setting lore.",
+      "distributionStatus": "blocked-pending-paizo-licensed-material-review"
+    },
+    {
+      "name": "Reptoid",
+      "presentInInstalledSf2e": false,
+      "sourceLedgerId": "sf1e-alien-archive-1-local",
+      "printedPage": 92,
+      "onlineReference": "https://www.aonsrd.com/Races.aspx?ItemName=Reptoid",
+      "sf1eConceptSignals": ["Medium shapechanger", "single prepared identity", "mental and poison resilience", "low-light vision", "natural claws"],
+      "provisionalSf2eDirection": ["Change Shape baseline with one prepared identity", "heritages separate infiltration, resistance, and natural-weapon expressions", "avoid conspiracy-based cultural essentialism", "social deception supported by feats, not automatic moral alignment"],
+      "settingConstraint": "Reptilian biology does not imply a secret global conspiracy; cultures and individuals receive independent motives.",
+      "distributionStatus": "blocked-pending-paizo-licensed-material-review"
+    },
+    {
+      "name": "Verthani",
+      "presentInInstalledSf2e": false,
+      "sourceLedgerId": "sf1e-alien-archive-1-local",
+      "printedPage": 118,
+      "onlineReference": "https://www.aonsrd.com/Races.aspx?ItemName=Verthani",
+      "sf1eConceptSignals": ["tall humanoid", "low-light vision", "chromatophore camouflage", "augmentation affinity", "focused technical training"],
+      "provisionalSf2eDirection": ["camouflage requires uncovered skin and stillness", "augmentation capacity becomes a heritage or feat with explicit slot limits", "skill specialization follows standardized SF2e ancestry design", "cultural paths are optional backgrounds rather than biological castes"],
+      "settingConstraint": "Any devotional caste is a cultural office; worship does not confirm an existing deity.",
+      "distributionStatus": "blocked-pending-paizo-licensed-material-review"
+    },
+    {
+      "name": "Witchwyrd",
+      "presentInInstalledSf2e": false,
+      "sourceLedgerId": "sf1e-alien-archive-1-local",
+      "printedPage": 122,
+      "onlineReference": "https://www.aonsrd.com/Races.aspx?ItemName=Witchwyrd",
+      "sf1eConceptSignals": ["four arms", "darkvision", "force-energy absorption", "force projection", "mercantile expertise"],
+      "provisionalSf2eDirection": ["four-arm handling follows existing SF2e inactive-hand rules", "force absorption becomes a reaction feat with bounded frequency", "energy projection scales as an ancestry action", "merchant culture is one option rather than a universal personality"],
+      "settingConstraint": "An original four-armed interstellar lineage may be safer for distribution if the name or lore remains reserved material.",
+      "distributionStatus": "blocked-pending-paizo-licensed-material-review"
+    },
+    {
+      "name": "Nuar",
+      "presentInInstalledSf2e": false,
+      "sourceLedgerId": "sf1e-interstellar-species-local",
+      "printedPage": 92,
+      "onlineReference": "https://www.aonsrd.com/Races.aspx?ItemName=Nuar",
+      "sf1eConceptSignals": ["horned humanoid", "darkvision", "gore attack", "direction and pattern aptitude", "high ground speed"],
+      "provisionalSf2eDirection": ["horn attack uses the standardized ancestry Strike pattern", "navigation aptitude grants trained skill or circumstance support", "speed remains within SF2e ancestry benchmarks", "maze and pattern themes expand through heritages and feats"],
+      "settingConstraint": "Personal legends and invented gods are cultural narratives, never evidence of real deities.",
+      "distributionStatus": "blocked-pending-paizo-licensed-material-review"
+    }
+  ]
+}
