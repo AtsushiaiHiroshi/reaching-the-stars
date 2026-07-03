@@ -1,12 +1,12 @@
 {
-  "_id": "YNqxHi1RPQiApKc4",
+  "_id": "dqFAYJsUA96CafIR",
   "img": "systems/sf2e/icons/default-icons/heritage.svg",
   "name": "Nuar endurecido por el vacio",
   "system": {
     "ancestry": {
       "name": "Nuar",
       "slug": "nuar",
-      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.M8yjTQHiW8A21s7V"
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.FpGsdxRMbSuMzheS"
     },
     "description": {
       "value": "<p>Herencia de desarrollo. {\"saveBonus\":1,\"bonusType\":\"circumstance\",\"against\":[\"vacuum\",\"radiation\",\"extreme temperature\"]}</p><p>Development heritage. {\"saveBonus\":1,\"bonusType\":\"circumstance\",\"against\":[\"vacuum\",\"radiation\",\"extreme temperature\"]}</p>"
@@ -14,7 +14,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "rules": [
       {
@@ -49,7 +49,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {

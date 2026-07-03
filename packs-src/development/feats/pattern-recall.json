@@ -1,5 +1,5 @@
 {
-  "_id": "p1kh6sPis7sXMsHv",
+  "_id": "3QFomrpNhpcKJOPc",
   "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
   "name": "Recuerdo de patrones",
   "system": {
@@ -22,7 +22,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "rules": [],
     "subfeatures": {
@@ -50,7 +50,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {

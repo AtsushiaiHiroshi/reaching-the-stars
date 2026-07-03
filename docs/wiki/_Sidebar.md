@@ -1,4 +1,4 @@
-## Alcanzando las Estrellas
+## Reaching the Stars
 
 - [[Inicio|Home]]
 - [[Cosmologia]]

@@ -1,5 +1,5 @@
 {
-  "_id": "G4rBt5H7cUZlNVCs",
+  "_id": "DBrWGKWnA7urkgR1",
   "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
   "name": "Espectro viviente",
   "system": {
@@ -22,7 +22,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "rules": [],
     "subfeatures": {
@@ -54,7 +54,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {

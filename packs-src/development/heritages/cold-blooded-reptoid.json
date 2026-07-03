@@ -1,12 +1,12 @@
 {
-  "_id": "l0JbLpHIEaEJd6xl",
+  "_id": "dDma6wBtmeRqNRza",
   "img": "systems/sf2e/icons/default-icons/heritage.svg",
   "name": "Reptoid de sangre fria",
   "system": {
     "ancestry": {
       "name": "Reptoid",
       "slug": "reptoid",
-      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.u0PMRrAa2oOZgHgT"
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.dD0onQDdO9GLr6tJ"
     },
     "description": {
       "value": "<p>Herencia de desarrollo. {\"choice\":\"poison or mental\",\"saveBonus\":1,\"bonusType\":\"circumstance\"}</p><p>Development heritage. {\"choice\":\"poison or mental\",\"saveBonus\":1,\"bonusType\":\"circumstance\"}</p>"
@@ -14,7 +14,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "rules": [
       {
@@ -50,7 +50,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {

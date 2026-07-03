@@ -2,7 +2,7 @@
 
 ## Metafisica no teista
 
-En Alcanzando las Estrellas no existen deidades objetivas, seres omnipotentes ni una fuente divina verificable. Las religiones existen como fenomenos culturales, filosoficos y politicos. Una sociedad puede venerar a un dios, antepasado, estrella, algoritmo o mito, pero ninguna creencia prueba que su objeto de culto sea una deidad real.
+En *Reaching the Stars* (*Alcanzando las Estrellas*) no existen deidades objetivas, seres omnipotentes ni una fuente divina verificable. Las religiones existen como fenomenos culturales, filosoficos y politicos. Una sociedad puede venerar a un dios, antepasado, estrella, algoritmo o mito, pero ninguna creencia prueba que su objeto de culto sea una deidad real.
 
 Los seres extremadamente poderosos siguen siendo entidades finitas: alienigenas, inteligencias, organismos cosmicos, constructos, habitantes extradimensionales o fenomenos naturales. Pueden ser adorados y pueden afirmar que son dioses, pero no reciben esa categoria ontologica.
 

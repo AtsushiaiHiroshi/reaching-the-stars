@@ -40,7 +40,7 @@ function slugify(value) {
 
 function stableId(type, slug) {
   return createHash("sha256")
-    .update(`alcanzando-las-estrellas:${type}:${slug}`)
+    .update(`reaching-the-stars:${type}:${slug}`)
     .digest("base64url")
     .replace(/[-_]/g, "A")
     .slice(0, 16);
@@ -50,7 +50,7 @@ function publication() {
   return {
     license: "Custom",
     remaster: true,
-    title: "Alcanzando las Estrellas (Development)",
+    title: "Reaching the Stars (Development)",
   };
 }
 
@@ -64,7 +64,7 @@ function stats() {
 
 function localizedFlags(es, en) {
   return {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       development: true,
       localization: {
         es,
@@ -247,7 +247,7 @@ function heritageDocument(prototype, heritage, ancestryId) {
       ancestry: {
         name: prototype.sourceName,
         slug: slugify(prototype.sourceName),
-        uuid: `Compendium.alcanzando-las-estrellas.ale-ancestries.Item.${ancestryId}`,
+        uuid: `Compendium.reaching-the-stars.rts-ancestries.Item.${ancestryId}`,
       },
       description: { value: paragraphs(descriptionEs, descriptionEn) },
       publication: publication(),

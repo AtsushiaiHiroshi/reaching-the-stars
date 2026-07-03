@@ -1,5 +1,5 @@
 {
-  "_id": "9hWRXC0AXJTfC4ek",
+  "_id": "V4GjbmMjOxqFq9mF",
   "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
   "name": "Circuito de reparacion de emergencia",
   "system": {
@@ -22,7 +22,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "rules": [],
     "subfeatures": {
@@ -54,7 +54,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {

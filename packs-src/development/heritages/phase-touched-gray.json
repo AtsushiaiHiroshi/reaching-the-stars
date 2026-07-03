@@ -1,12 +1,12 @@
 {
-  "_id": "nggKuvm9ae2y8hPv",
+  "_id": "uOA2TV0v3MahT8qA",
   "img": "systems/sf2e/icons/default-icons/heritage.svg",
   "name": "Gray tocado por la fase",
   "system": {
     "ancestry": {
       "name": "Gray",
       "slug": "gray",
-      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.weyTGfCijeFiUsnr"
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.xA5KlsivZGyGAaB6"
     },
     "description": {
       "value": "<p>Herencia de desarrollo. {\"saveBonus\":1,\"bonusType\":\"circumstance\",\"against\":[\"force\",\"teleportation\",\"forced movement\"]}</p><p>Development heritage. {\"saveBonus\":1,\"bonusType\":\"circumstance\",\"against\":[\"force\",\"teleportation\",\"forced movement\"]}</p>"
@@ -14,7 +14,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "rules": [
       {
@@ -49,7 +49,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {

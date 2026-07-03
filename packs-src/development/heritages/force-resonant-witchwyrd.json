@@ -1,12 +1,12 @@
 {
-  "_id": "AX1rl9m2oj6LcVTe",
+  "_id": "lzRxqRa6s1Bg6Zzb",
   "img": "systems/sf2e/icons/default-icons/heritage.svg",
   "name": "Witchwyrd resonante de fuerza",
   "system": {
     "ancestry": {
       "name": "Witchwyrd",
       "slug": "witchwyrd",
-      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.4dAGnl52i8EOBlxG"
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.oLUBlTtvVSE8AqAp"
     },
     "description": {
       "value": "<p>Herencia de desarrollo. {\"resistance\":\"force\",\"value\":\"half level, minimum 1\"}</p><p>Development heritage. {\"resistance\":\"force\",\"value\":\"half level, minimum 1\"}</p>"
@@ -14,7 +14,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "rules": [
       {
@@ -41,7 +41,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {

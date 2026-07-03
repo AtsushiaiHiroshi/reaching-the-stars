@@ -1,12 +1,12 @@
 {
-  "_id": "QiN44D5TBZfpj0nY",
+  "_id": "IszQEcCXRilNxKYq",
   "img": "systems/sf2e/icons/default-icons/heritage.svg",
   "name": "Chasis industrial",
   "system": {
     "ancestry": {
       "name": "SRO",
       "slug": "sro",
-      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.SKf1iPpy7PBsi2Fg"
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.iTcQTEe20B06FR6G"
     },
     "description": {
       "value": "<p>Herencia de desarrollo. {\"trainedSkill\":\"Crafting\",\"fallbackLore\":\"Technology Lore\"}</p><p>Development heritage. {\"trainedSkill\":\"Crafting\",\"fallbackLore\":\"Technology Lore\"}</p>"
@@ -14,7 +14,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "rules": [
       {
@@ -42,7 +42,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {

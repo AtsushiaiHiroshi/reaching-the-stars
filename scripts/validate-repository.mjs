@@ -52,7 +52,8 @@ const manifest = parsedJson.get("module.json");
 if (!manifest) {
   errors.push("module.json could not be read");
 } else {
-  if (manifest.id !== "alcanzando-las-estrellas") errors.push("module.json has an unexpected module id");
+  if (manifest.id !== "reaching-the-stars") errors.push("module.json has an unexpected module id");
+  if (manifest.title !== "Reaching the Stars") errors.push("module.json has an unexpected module title");
   if (manifest.compatibility?.minimum !== "14" || manifest.compatibility?.verified !== "14") {
     errors.push("module.json must retain Foundry VTT 14 minimum and verified compatibility");
   }

@@ -1,6 +1,6 @@
-# Alcanzando las Estrellas
+# Reaching the Stars
 
-Base de desarrollo de una ambientacion de ciencia ficcion sin deidades objetivamente existentes. Su primera integracion mecanica esta destinada a Starfinder Segunda Edicion, pero el lore y las herramientas genericas se mantienen separados mediante adaptadores.
+**Alcanzando las Estrellas** en espanol. Base de desarrollo de una ambientacion de ciencia ficcion sin deidades objetivamente existentes. Su primera integracion mecanica esta destinada a Starfinder Segunda Edicion, pero el lore y las herramientas genericas se mantienen separados mediante adaptadores.
 
 ## Arquitectura
 

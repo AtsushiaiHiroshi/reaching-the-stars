@@ -8,7 +8,7 @@ const atlas = JSON.parse(await readFile(path.join(ROOT, "data", "setting", "atla
 
 function stableId(kind, slug) {
   return createHash("sha256")
-    .update(`alcanzando-las-estrellas:${kind}:${slug}`)
+    .update(`reaching-the-stars:${kind}:${slug}`)
     .digest("base64url")
     .replace(/[-_]/g, "A")
     .slice(0, 16);
@@ -46,7 +46,7 @@ function page(slug, name, content, sort, sourceType, sourceId) {
     _stats: stats(),
     category: null,
     flags: {
-      "alcanzando-las-estrellas": {
+      "reaching-the-stars": {
         generated: true,
         sourceId,
         sourceType,
@@ -126,7 +126,7 @@ const journals = atlas.sectors.map((sector) => {
     _stats: stats(),
     categories: [],
     flags: {
-      "alcanzando-las-estrellas": {
+      "reaching-the-stars": {
         canonStatus: atlas.canonStatus,
         generated: true,
         sourceId: sector.id,
@@ -143,7 +143,7 @@ const journals = atlas.sectors.map((sector) => {
 
 await mkdir(OUTPUT, { recursive: true });
 for (const journal of journals) {
-  const slug = journal.flags["alcanzando-las-estrellas"].sourceId;
+  const slug = journal.flags["reaching-the-stars"].sourceId;
   await writeFile(path.join(OUTPUT, `${slug}.json`), `${JSON.stringify(journal, null, 2)}\n`, "utf8");
 }
 

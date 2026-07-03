@@ -1,5 +1,5 @@
 {
-  "_id": "1ppwZ9CfIo2n35kx",
+  "_id": "AVLAJaAaNyduD7Fp",
   "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
   "name": "Devolver el vector",
   "system": {
@@ -26,7 +26,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "rules": [],
     "subfeatures": {
@@ -54,7 +54,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {

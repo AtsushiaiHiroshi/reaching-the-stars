@@ -1,8 +1,8 @@
 {
-  "name": "alcanzando-las-estrellas",
+  "name": "reaching-the-stars",
   "version": "0.1.0",
   "private": true,
-  "description": "Herramientas de desarrollo y validacion para Alcanzando las Estrellas.",
+  "description": "Herramientas de desarrollo y validacion para Reaching the Stars (Alcanzando las Estrellas).",
   "type": "module",
   "scripts": {
     "build:development": "node scripts/build-development-items.mjs",

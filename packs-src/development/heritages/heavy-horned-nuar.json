@@ -1,12 +1,12 @@
 {
-  "_id": "2u4wkeYL5Gd1O43s",
+  "_id": "w3Nd40DVDER7CnnF",
   "img": "systems/sf2e/icons/default-icons/heritage.svg",
   "name": "Nuar de cuernos pesados",
   "system": {
     "ancestry": {
       "name": "Nuar",
       "slug": "nuar",
-      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.M8yjTQHiW8A21s7V"
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.FpGsdxRMbSuMzheS"
     },
     "description": {
       "value": "<p>Herencia de desarrollo. {\"strikeAlteration\":\"horn damage die becomes d8 and loses its maneuver trait\"}</p><p>Development heritage. {\"strikeAlteration\":\"horn damage die becomes d8 and loses its maneuver trait\"}</p>"
@@ -14,7 +14,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "rules": [],
     "traits": {
@@ -35,7 +35,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {

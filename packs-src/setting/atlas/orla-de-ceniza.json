@@ -1,5 +1,5 @@
 {
-  "_id": "4cWZmQ0MfuWqhiVA",
+  "_id": "QhOJX0Lr2H9EgrTs",
   "_stats": {
     "compendiumSource": null,
     "coreVersion": "14.364",
@@ -12,7 +12,7 @@
   },
   "categories": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "canonStatus": "provisional",
       "generated": true,
       "sourceId": "orla-de-ceniza",
@@ -26,7 +26,7 @@
   },
   "pages": [
     {
-      "_id": "gyuLANrwxIsp0K0W",
+      "_id": "lwwyryRozeaAArOd",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.364",
@@ -39,7 +39,7 @@
       },
       "category": null,
       "flags": {
-        "alcanzando-las-estrellas": {
+        "reaching-the-stars": {
           "generated": true,
           "sourceId": "orla-de-ceniza",
           "sourceType": "sector"
@@ -69,7 +69,7 @@
       }
     },
     {
-      "_id": "mFXXAGfFa8lZ4mqc",
+      "_id": "Dt14NAZqzKwn0bFx",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.364",
@@ -82,7 +82,7 @@
       },
       "category": null,
       "flags": {
-        "alcanzando-las-estrellas": {
+        "reaching-the-stars": {
           "generated": true,
           "sourceId": "concordia",
           "sourceType": "system"
@@ -112,7 +112,7 @@
       }
     },
     {
-      "_id": "UjC3BPc0n0oIkNGy",
+      "_id": "IGycGyiebxSGvTXA",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.364",
@@ -125,7 +125,7 @@
       },
       "category": null,
       "flags": {
-        "alcanzando-las-estrellas": {
+        "reaching-the-stars": {
           "generated": true,
           "sourceId": "marea-violeta",
           "sourceType": "system"
@@ -155,7 +155,7 @@
       }
     },
     {
-      "_id": "uh0CodyXNEijfvpA",
+      "_id": "1I2nol13OVKnFsSd",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.364",
@@ -168,7 +168,7 @@
       },
       "category": null,
       "flags": {
-        "alcanzando-las-estrellas": {
+        "reaching-the-stars": {
           "generated": true,
           "sourceId": "farallon",
           "sourceType": "system"
@@ -198,7 +198,7 @@
       }
     },
     {
-      "_id": "82kFAfAdlkPU2e70",
+      "_id": "flmc09yMrrPknwRi",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.364",
@@ -211,7 +211,7 @@
       },
       "category": null,
       "flags": {
-        "alcanzando-las-estrellas": {
+        "reaching-the-stars": {
           "generated": true,
           "sourceId": "lumen-47",
           "sourceType": "system"
@@ -241,7 +241,7 @@
       }
     },
     {
-      "_id": "wsBQAhu8XcJhWATa",
+      "_id": "eAvv1ZAnm5EDoXIV",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.364",
@@ -254,7 +254,7 @@
       },
       "category": null,
       "flags": {
-        "alcanzando-las-estrellas": {
+        "reaching-the-stars": {
           "generated": true,
           "sourceId": "osario-frio",
           "sourceType": "system"
@@ -284,7 +284,7 @@
       }
     },
     {
-      "_id": "AOA0A6QoNuZoqzLm",
+      "_id": "kYX8prL3dEQmvwsH",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.364",
@@ -297,7 +297,7 @@
       },
       "category": null,
       "flags": {
-        "alcanzando-las-estrellas": {
+        "reaching-the-stars": {
           "generated": true,
           "sourceId": "collection",
           "sourceType": "factions"
@@ -327,7 +327,7 @@
       }
     },
     {
-      "_id": "9uDdgEpMhvOo46Ap",
+      "_id": "mlX1RzZjnuHtA3u7",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.364",
@@ -340,7 +340,7 @@
       },
       "category": null,
       "flags": {
-        "alcanzando-las-estrellas": {
+        "reaching-the-stars": {
           "generated": true,
           "sourceId": "collection",
           "sourceType": "conflicts"
@@ -370,7 +370,7 @@
       }
     },
     {
-      "_id": "095nbJlpyFlUPIOE",
+      "_id": "Se1nXOdPZ8tK4upg",
       "_stats": {
         "compendiumSource": null,
         "coreVersion": "14.364",
@@ -383,7 +383,7 @@
       },
       "category": null,
       "flags": {
-        "alcanzando-las-estrellas": {
+        "reaching-the-stars": {
           "generated": true,
           "sourceId": "collection",
           "sourceType": "beliefs"

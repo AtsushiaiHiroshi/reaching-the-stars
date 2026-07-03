@@ -1,12 +1,12 @@
 {
-  "_id": "TEceKFoAAa3CVHyD",
+  "_id": "W39Vku4FADSTa4ME",
   "img": "systems/sf2e/icons/default-icons/heritage.svg",
   "name": "Nuar de mente laberintica",
   "system": {
     "ancestry": {
       "name": "Nuar",
       "slug": "nuar",
-      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.M8yjTQHiW8A21s7V"
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.FpGsdxRMbSuMzheS"
     },
     "description": {
       "value": "<p>Herencia de desarrollo. {\"trainedSkill\":\"Survival\",\"fallbackLore\":\"Maze Lore\"}</p><p>Development heritage. {\"trainedSkill\":\"Survival\",\"fallbackLore\":\"Maze Lore\"}</p>"
@@ -14,7 +14,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "rules": [
       {
@@ -42,7 +42,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {

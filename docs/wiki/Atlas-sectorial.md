@@ -2,7 +2,7 @@
 
 ## La Orla de Ceniza
 
-La primera region original de *Alcanzando las Estrellas* es una frontera de estrellas envejecidas. Sus rutas dependen de balizas anteriores a las culturas actuales y nadie sabe quien las construyo. Todo el sector es canon provisional.
+La primera region original de *Reaching the Stars* (*Alcanzando las Estrellas*) es una frontera de estrellas envejecidas. Sus rutas dependen de balizas anteriores a las culturas actuales y nadie sabe quien las construyo. Todo el sector es canon provisional.
 
 | Sistema | Funcion narrativa | Lugares iniciales |
 | --- | --- | --- |

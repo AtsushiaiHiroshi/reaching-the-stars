@@ -1,6 +1,6 @@
-# Alcanzando las Estrellas
+# Reaching the Stars / Alcanzando las Estrellas
 
-Alcanzando las Estrellas es una ambientacion de ciencia ficcion concebida como libro completo, modulo de Foundry VTT y futuro sistema de juego independiente.
+*Reaching the Stars*, o *Alcanzando las Estrellas* en espanol, es una ambientacion de ciencia ficcion concebida como libro completo, modulo de Foundry VTT y futuro sistema de juego independiente.
 
 La primera implementacion mecanica utiliza Starfinder Segunda Edicion. El nucleo narrativo se mantiene separado de cada adaptador para permitir futuras conversiones.
 

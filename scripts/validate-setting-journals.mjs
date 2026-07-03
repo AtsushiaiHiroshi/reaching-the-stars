@@ -14,7 +14,7 @@ for (const filename of await readdir(SOURCE)) {
 for (const journal of journals) {
   if (!/^[A-Za-z0-9]{16}$/.test(journal._id)) errors.push(`${journal.name}: invalid journal ID`);
   if (journal._stats?.systemId !== null || journal._stats?.systemVersion !== null) errors.push(`${journal.name}: journal must remain system-neutral`);
-  if (journal.flags?.["alcanzando-las-estrellas"]?.canonStatus !== "provisional") errors.push(`${journal.name}: unexpected canon status`);
+  if (journal.flags?.["reaching-the-stars"]?.canonStatus !== "provisional") errors.push(`${journal.name}: unexpected canon status`);
   if (!Array.isArray(journal.pages) || !journal.pages.length) errors.push(`${journal.name}: missing pages`);
   for (const document of [journal, ...(journal.pages ?? [])]) {
     if (ids.has(document._id)) errors.push(`${journal.name}: duplicate document ID ${document._id}`);

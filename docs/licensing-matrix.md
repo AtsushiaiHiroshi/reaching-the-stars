@@ -2,7 +2,7 @@
 
 | Fuente | Uso interno | Distribucion | Condicion |
 | --- | --- | --- | --- |
-| Lore original de Alcanzando las Estrellas | Si | Si | Declarar autoria y licencia elegida |
+| Lore original de Reaching the Stars / Alcanzando las Estrellas | Si | Si | Declarar autoria y licencia elegida |
 | Reglas ORC identificadas por Paizo | Si | Si | Cumplir ORC y aviso de producto |
 | Marcas o logo de compatibilidad Starfinder | Si | Condicional | Cumplir la Licencia de Compatibilidad de Paizo |
 | Texto de ambientacion y arte de Paizo | Si | No por defecto | Requiere permiso/licencia especifica |

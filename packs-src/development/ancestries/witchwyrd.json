@@ -1,5 +1,5 @@
 {
-  "_id": "4dAGnl52i8EOBlxG",
+  "_id": "oLUBlTtvVSE8AqAp",
   "img": "systems/sf2e/icons/default-icons/ancestry.svg",
   "name": "Witchwyrd",
   "system": {
@@ -48,7 +48,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "reach": 5,
     "rules": [],
@@ -76,7 +76,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {

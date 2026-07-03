@@ -1,4 +1,4 @@
-const MODULE_ID = "alcanzando-las-estrellas";
+const MODULE_ID = "reaching-the-stars";
 
 class GenericAdapter {
   static id = "generic";
@@ -35,8 +35,8 @@ Hooks.once("init", () => {
   };
 
   game.settings.register(MODULE_ID, "settingOnlyMode", {
-    name: "ALE.Settings.SettingOnly.Name",
-    hint: "ALE.Settings.SettingOnly.Hint",
+    name: "RTS.Settings.SettingOnly.Name",
+    hint: "RTS.Settings.SettingOnly.Hint",
     scope: "world",
     config: true,
     type: Boolean,

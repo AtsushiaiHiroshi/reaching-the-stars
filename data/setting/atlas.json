@@ -1,7 +1,8 @@
 {
   "schemaVersion": 1,
   "canonStatus": "provisional",
-  "setting": "Alcanzando las Estrellas",
+  "setting": "Reaching the Stars",
+  "localizedNames": {"es": "Alcanzando las Estrellas"},
   "metaphysics": {
     "objectiveDeitiesExist": false,
     "culturalBeliefsExist": true,

@@ -1,12 +1,12 @@
 {
-  "_id": "AFewJntEWnOOg9or",
+  "_id": "DtxAeqNJhJwcKvxc",
   "img": "systems/sf2e/icons/default-icons/heritage.svg",
   "name": "Witchwyrd mercader lejano",
   "system": {
     "ancestry": {
       "name": "Witchwyrd",
       "slug": "witchwyrd",
-      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.4dAGnl52i8EOBlxG"
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.oLUBlTtvVSE8AqAp"
     },
     "description": {
       "value": "<p>Herencia de desarrollo. {\"trainedSkill\":\"Society\",\"fallbackLore\":\"Trade Lore\"}</p><p>Development heritage. {\"trainedSkill\":\"Society\",\"fallbackLore\":\"Trade Lore\"}</p>"
@@ -14,7 +14,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "rules": [
       {
@@ -42,7 +42,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {

@@ -1,5 +1,5 @@
 {
-  "_id": "weyTGfCijeFiUsnr",
+  "_id": "xA5KlsivZGyGAaB6",
   "img": "systems/sf2e/icons/default-icons/ancestry.svg",
   "name": "Gray",
   "system": {
@@ -48,7 +48,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "reach": 5,
     "rules": [],
@@ -76,7 +76,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {

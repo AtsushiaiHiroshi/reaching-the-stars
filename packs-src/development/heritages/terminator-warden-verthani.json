@@ -1,12 +1,12 @@
 {
-  "_id": "tdqG0sNU7xP3kO3A",
+  "_id": "oQAnWpzsu0VvlipI",
   "img": "systems/sf2e/icons/default-icons/heritage.svg",
   "name": "Verthani guardian del terminador",
   "system": {
     "ancestry": {
       "name": "Verthani",
       "slug": "verthani",
-      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.j1M5ka8b9IJSXxcF"
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.tVcIxqtKbZ9yaLif"
     },
     "description": {
       "value": "<p>Herencia de desarrollo. {\"choice\":\"cold, fire, or radiation\",\"saveBonus\":1,\"bonusType\":\"circumstance\"}</p><p>Development heritage. {\"choice\":\"cold, fire, or radiation\",\"saveBonus\":1,\"bonusType\":\"circumstance\"}</p>"
@@ -14,7 +14,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "rules": [
       {
@@ -49,7 +49,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {

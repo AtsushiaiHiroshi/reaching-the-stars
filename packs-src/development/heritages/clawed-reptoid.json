@@ -1,12 +1,12 @@
 {
-  "_id": "sAAoYrbzwPdMzXkl",
+  "_id": "RMABfkS4MydD9wjT",
   "img": "systems/sf2e/icons/default-icons/heritage.svg",
   "name": "Reptoid de garras",
   "system": {
     "ancestry": {
       "name": "Reptoid",
       "slug": "reptoid",
-      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.u0PMRrAa2oOZgHgT"
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.dD0onQDdO9GLr6tJ"
     },
     "description": {
       "value": "<p>Herencia de desarrollo. {\"ruleElement\":\"Strike\",\"damage\":\"1d6 slashing\",\"traits\":[\"finesse\",\"unarmed\"]}</p><p>Development heritage. {\"ruleElement\":\"Strike\",\"damage\":\"1d6 slashing\",\"traits\":[\"finesse\",\"unarmed\"]}</p>"
@@ -14,7 +14,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "rules": [
       {
@@ -56,7 +56,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {

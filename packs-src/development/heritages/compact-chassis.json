@@ -1,12 +1,12 @@
 {
-  "_id": "2Nc2i87HlQv6rkAS",
+  "_id": "FRfeBobRXaEjYA9d",
   "img": "systems/sf2e/icons/default-icons/heritage.svg",
   "name": "Chasis compacto",
   "system": {
     "ancestry": {
       "name": "SRO",
       "slug": "sro",
-      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.SKf1iPpy7PBsi2Fg"
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.iTcQTEe20B06FR6G"
     },
     "description": {
       "value": "<p>Herencia de desarrollo. {\"ruleElement\":\"CreatureSize\",\"value\":\"small\"}</p><p>Development heritage. {\"ruleElement\":\"CreatureSize\",\"value\":\"small\"}</p>"
@@ -14,7 +14,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "rules": [
       {
@@ -40,7 +40,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {

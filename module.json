@@ -1,7 +1,7 @@
 {
-  "id": "alcanzando-las-estrellas",
-  "title": "Alcanzando las Estrellas",
-  "description": "Nucleo de ambientacion de ciencia ficcion adaptable, con integracion inicial para Starfinder Segunda Edicion.",
+  "id": "reaching-the-stars",
+  "title": "Reaching the Stars",
+  "description": "Reaching the Stars (Alcanzando las Estrellas), una ambientacion de ciencia ficcion adaptable con integracion inicial para Starfinder Segunda Edicion.",
   "version": "0.1.0",
   "compatibility": {
     "minimum": "14",
@@ -18,7 +18,7 @@
     "scripts/main.mjs"
   ],
   "styles": [
-    "styles/alcanzando-las-estrellas.css"
+    "styles/reaching-the-stars.css"
   ],
   "languages": [
     {

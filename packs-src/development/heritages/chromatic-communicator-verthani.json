@@ -1,12 +1,12 @@
 {
-  "_id": "RksVLiJK3e6L6fn5",
+  "_id": "JWlmTyV6mAVUBN8L",
   "img": "systems/sf2e/icons/default-icons/heritage.svg",
   "name": "Verthani comunicador cromatico",
   "system": {
     "ancestry": {
       "name": "Verthani",
       "slug": "verthani",
-      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.j1M5ka8b9IJSXxcF"
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.tVcIxqtKbZ9yaLif"
     },
     "description": {
       "value": "<p>Herencia de desarrollo. {\"trainedSkill\":\"Diplomacy\",\"fallbackLore\":\"Visual Communication Lore\"}</p><p>Development heritage. {\"trainedSkill\":\"Diplomacy\",\"fallbackLore\":\"Visual Communication Lore\"}</p>"
@@ -14,7 +14,7 @@
     "publication": {
       "license": "Custom",
       "remaster": true,
-      "title": "Alcanzando las Estrellas (Development)"
+      "title": "Reaching the Stars (Development)"
     },
     "rules": [
       {
@@ -42,7 +42,7 @@
   },
   "effects": [],
   "flags": {
-    "alcanzando-las-estrellas": {
+    "reaching-the-stars": {
       "development": true,
       "localization": {
         "es": {
