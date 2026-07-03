@@ -7,3 +7,4 @@
 - [[Flujo-de-conversion-de-especies]]
 - [[Especies-SF1e-auditadas]]
 - [[Prototipos-mecanicos]]
+- [[Herencias-y-dotes-iniciales]]
