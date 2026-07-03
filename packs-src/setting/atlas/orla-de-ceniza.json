@@ -1,0 +1,417 @@
+{
+  "_id": "4cWZmQ0MfuWqhiVA",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.364",
+    "createdTime": null,
+    "duplicateSource": null,
+    "lastModifiedBy": null,
+    "modifiedTime": null,
+    "systemId": null,
+    "systemVersion": null
+  },
+  "categories": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "canonStatus": "provisional",
+      "generated": true,
+      "sourceId": "orla-de-ceniza",
+      "sourceType": "sector"
+    }
+  },
+  "folder": null,
+  "name": "Atlas: La Orla de Ceniza",
+  "ownership": {
+    "default": 0
+  },
+  "pages": [
+    {
+      "_id": "gyuLANrwxIsp0K0W",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.364",
+        "createdTime": null,
+        "duplicateSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "category": null,
+      "flags": {
+        "alcanzando-las-estrellas": {
+          "generated": true,
+          "sourceId": "orla-de-ceniza",
+          "sourceType": "sector"
+        }
+      },
+      "image": {},
+      "name": "La Orla de Ceniza",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "src": null,
+      "system": {},
+      "text": {
+        "content": "<p>Una frontera de estrellas envejecidas donde las rutas seguras dependen de balizas anteriores a las culturas actuales.</p><p><strong>Estado:</strong> canon-provisional. Una unidad de coordenadas equivale a un salto narrativo.</p><h2>Temas</h2><ul><li>frontera</li><li>arqueologia estelar</li><li>migracion</li><li>economia de supervivencia</li></ul><h2>Metafisica</h2><p>Toda entidad observable es finita. Ser venerada o afirmar divinidad no demuestra que una entidad sea un dios.</p>",
+        "format": 1,
+        "markdown": ""
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      }
+    },
+    {
+      "_id": "mFXXAGfFa8lZ4mqc",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.364",
+        "createdTime": null,
+        "duplicateSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "category": null,
+      "flags": {
+        "alcanzando-las-estrellas": {
+          "generated": true,
+          "sourceId": "concordia",
+          "sourceType": "system"
+        }
+      },
+      "image": {},
+      "name": "Concordia",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "src": null,
+      "system": {},
+      "text": {
+        "content": "<p>Centro diplomatico y logistico construido alrededor del unico corredor de saltos que nunca ha fallado.</p><p><strong>Primaria:</strong> enana naranja estable. <strong>Coordenadas:</strong> (0, 0, 0).</p><h2>Lugares</h2><h3>Cuna de Cobre</h3><p><em>planet</em>. Mundo industrial de gravedad alta donde ciudades moviles siguen la franja templada.</p><h3>Concordia Axial</h3><p><em>station</em>. Estacion neutral construida por capas alrededor de una baliza de salto que nadie puede apagar.</p><h2>Culturas</h2><h3>Clados de Cobre</h3><p>Linajes laborales que consideran el mantenimiento una responsabilidad heredada, no una casta.</p><h3>Ciudadania Axial</h3><p>Identidad civica adoptada por residentes de la estacion sin exigir especie, origen ni planeta natal.</p><h2>Etiquetas</h2><ul><li>capital regional</li><li>astillero</li><li>puerta de salto</li></ul>",
+        "format": 1,
+        "markdown": ""
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      }
+    },
+    {
+      "_id": "UjC3BPc0n0oIkNGy",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.364",
+        "createdTime": null,
+        "duplicateSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "category": null,
+      "flags": {
+        "alcanzando-las-estrellas": {
+          "generated": true,
+          "sourceId": "marea-violeta",
+          "sourceType": "system"
+        }
+      },
+      "image": {},
+      "name": "Marea Violeta",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "src": null,
+      "system": {},
+      "text": {
+        "content": "<p>Sistema oceanico cuya biosfera produce compuestos indispensables para el soporte vital de larga duracion.</p><p><strong>Primaria:</strong> estrella blanca variable. <strong>Coordenadas:</strong> (1, -1, 0).</p><h2>Lugares</h2><h3>Pelago Violeta</h3><p><em>moon</em>. Luna oceanica iluminada por floraciones bioluminiscentes y auroras letales.</p><h3>Puerto Anemona</h3><p><em>station</em>. Arrecife-habitat cultivado para recibir naves sin contaminar el oceano inferior.</p><h2>Culturas</h2><h3>Navegantes Pelagicos</h3><p>Comunidades anfibias y orbitales que negocian el uso del oceano como un bien intergeneracional.</p><h2>Etiquetas</h2><ul><li>oceano</li><li>biotecnologia</li><li>tormentas magneticas</li></ul>",
+        "format": 1,
+        "markdown": ""
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      }
+    },
+    {
+      "_id": "uh0CodyXNEijfvpA",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.364",
+        "createdTime": null,
+        "duplicateSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "category": null,
+      "flags": {
+        "alcanzando-las-estrellas": {
+          "generated": true,
+          "sourceId": "farallon",
+          "sourceType": "system"
+        }
+      },
+      "image": {},
+      "name": "Farallon",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "src": null,
+      "system": {},
+      "text": {
+        "content": "<p>Cinturones minerales y habitats excavados disputan cada tonelada de hielo y metal accesible.</p><p><strong>Primaria:</strong> binaria compacta. <strong>Coordenadas:</strong> (-1, 0, 1).</p><h2>Lugares</h2><h3>Roca Jurada</h3><p><em>habitat</em>. Confederacion de minas donde cada esclusa pertenece a un contrato distinto.</p><h3>Ascensor de Polvo</h3><p><em>megastructure</em>. Cadena de recolectores electromagneticos que extrae material de un disco circumbinario.</p><h2>Culturas</h2><h3>Casas de Vacio</h3><p>Redes de parentesco elegidas que comparten aire, deuda y responsabilidad de rescate.</p><h2>Etiquetas</h2><ul><li>mineria</li><li>habitats</li><li>sindicatos</li></ul>",
+        "format": 1,
+        "markdown": ""
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      }
+    },
+    {
+      "_id": "82kFAfAdlkPU2e70",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.364",
+        "createdTime": null,
+        "duplicateSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "category": null,
+      "flags": {
+        "alcanzando-las-estrellas": {
+          "generated": true,
+          "sourceId": "lumen-47",
+          "sourceType": "system"
+        }
+      },
+      "image": {},
+      "name": "Lumen 47",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 500000,
+      "src": null,
+      "system": {},
+      "text": {
+        "content": "<p>Observatorios blindados escuchan patrones imposibles dentro del ruido de un pulsar artificialmente estabilizado.</p><p><strong>Primaria:</strong> pulsar milisegundo. <strong>Coordenadas:</strong> (0, 1, -1).</p><h2>Lugares</h2><h3>Observatorio Cuarenta y Siete</h3><p><em>station</em>. Laboratorio fortificado que mide el pulsar en turnos aislados para evitar sesgos colectivos.</p><h3>Jardin de Jaulas</h3><p><em>habitat</em>. Invernaderos dentro de jaulas de Faraday, hogar de quienes mantienen vivo el observatorio.</p><h2>Culturas</h2><h3>Oyentes del Intervalo</h3><p>Cientificos, artistas y contemplativos que estudian silencios repetidos entre pulsos.</p><h2>Etiquetas</h2><ul><li>investigacion</li><li>radiacion</li><li>senal anomala</li></ul>",
+        "format": 1,
+        "markdown": ""
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      }
+    },
+    {
+      "_id": "wsBQAhu8XcJhWATa",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.364",
+        "createdTime": null,
+        "duplicateSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "category": null,
+      "flags": {
+        "alcanzando-las-estrellas": {
+          "generated": true,
+          "sourceId": "osario-frio",
+          "sourceType": "system"
+        }
+      },
+      "image": {},
+      "name": "Osario Frio",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "src": null,
+      "system": {},
+      "text": {
+        "content": "<p>Un campo de naves sin tripulacion orbita una estrella oscura; algunas conservan energia y ninguna admite haber enviado una llamada.</p><p><strong>Primaria:</strong> estrella de neutrones inactiva. <strong>Coordenadas:</strong> (1, 0, -1).</p><h2>Lugares</h2><h3>La Flota sin Nombre</h3><p><em>derelict-field</em>. Miles de cascos incompatibles ordenados como si hubieran llegado siguiendo una misma instruccion.</p><h3>El Faro Inverso</h3><p><em>anomaly</em>. Objeto que absorbe transmisiones dirigidas y las devuelve anos despues con respuestas incompletas.</p><h2>Etiquetas</h2><ul><li>derelictos</li><li>horror espacial</li><li>zona de exclusion</li></ul>",
+        "format": 1,
+        "markdown": ""
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      }
+    },
+    {
+      "_id": "AOA0A6QoNuZoqzLm",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.364",
+        "createdTime": null,
+        "duplicateSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "category": null,
+      "flags": {
+        "alcanzando-las-estrellas": {
+          "generated": true,
+          "sourceId": "collection",
+          "sourceType": "factions"
+        }
+      },
+      "image": {},
+      "name": "Facciones",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 700000,
+      "src": null,
+      "system": {},
+      "text": {
+        "content": "<h2>Asamblea del Horizonte</h2><p>Mantener rutas, arbitraje y rescate como bienes comunes.</p><p><strong>Metodos:</strong> tratados, misiones de auxilio, cartografia abierta.</p><h2>Consorcio de Transito Helicoidal</h2><p>Controlar la infraestructura de salto mediante concesiones exclusivas.</p><p><strong>Metodos:</strong> deuda, patentes, seguridad privada.</p><h2>Coro de Basalto</h2><p>Proteger la autonomia de habitats y trabajadores de vacio.</p><p><strong>Metodos:</strong> sindicatos, sabotaje no letal, fondos de rescate.</p><h2>Custodios del Silencio Radioelectrico</h2><p>Impedir que la senal anomala sea amplificada antes de comprenderla.</p><p><strong>Metodos:</strong> cuarentena informativa, interferencia, revision cientifica.</p><h2>Pacto de Agua Negra</h2><p>Evitar la apropiacion irreversible de la biosfera oceanica.</p><p><strong>Metodos:</strong> custodia biologica, embargos, diplomacia.</p>",
+        "format": 1,
+        "markdown": ""
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      }
+    },
+    {
+      "_id": "9uDdgEpMhvOo46Ap",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.364",
+        "createdTime": null,
+        "duplicateSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "category": null,
+      "flags": {
+        "alcanzando-las-estrellas": {
+          "generated": true,
+          "sourceId": "collection",
+          "sourceType": "conflicts"
+        }
+      },
+      "image": {},
+      "name": "Conflictos",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 800000,
+      "src": null,
+      "system": {},
+      "text": {
+        "content": "<h2>La Guerra de las Balizas Mudas</h2><p><strong>tension abierta.</strong> Varias balizas han dejado de reconocer naves no registradas por el Consorcio.</p><h2>La Crisis del Diezmo de Oxigeno</h2><p><strong>crisis economica.</strong> Farallon rechaza pagar derechos de transito con reservas de soporte vital.</p><h2>La Senal que Responde</h2><p><strong>misterio contenido.</strong> El patron de Lumen 47 cambia cuando una nave desaparece cerca del Osario Frio.</p>",
+        "format": 1,
+        "markdown": ""
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      }
+    },
+    {
+      "_id": "095nbJlpyFlUPIOE",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.364",
+        "createdTime": null,
+        "duplicateSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "category": null,
+      "flags": {
+        "alcanzando-las-estrellas": {
+          "generated": true,
+          "sourceId": "collection",
+          "sourceType": "beliefs"
+        }
+      },
+      "image": {},
+      "name": "Creencias y filosofias",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 900000,
+      "src": null,
+      "system": {},
+      "text": {
+        "content": "<h2>La Memoria del Metal</h2><p>Los objetos conservan la intencion de quienes los reparan.</p><p><em>Estado: creencia cultural no verificada.</em></p><h2>El Pacto del Eje</h2><p>Toda autoridad legitima debe poder ser reemplazada sin detener la estacion.</p><p><em>Estado: filosofia civica.</em></p><h2>La Marea que Recuerda</h2><p>El oceano devuelve transformado todo lo que una generacion deposita en el.</p><p><em>Estado: metafora ecologica y creencia ritual.</em></p><h2>La Ultima Bocanada</h2><p>Nadie posee aire mientras otra persona pueda ser rescatada con el.</p><p><em>Estado: juramento comunitario.</em></p><h2>La Doctrina del Intervalo</h2><p>Los silencios del pulsar contienen una mente que todavia no sabe hablar.</p><p><em>Estado: hipotesis disputada; no demuestra divinidad.</em></p>",
+        "format": 1,
+        "markdown": ""
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      }
+    }
+  ],
+  "sort": 0
+}

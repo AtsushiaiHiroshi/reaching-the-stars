@@ -3,8 +3,10 @@ import path from "node:path";
 
 const scripts = [
   "build-development-items.mjs",
+  "build-setting-journals.mjs",
   "validate-development-items.mjs",
   "validate-setting.mjs",
+  "validate-setting-journals.mjs",
   "validate-repository.mjs",
 ];
 

@@ -6,8 +6,10 @@
   "type": "module",
   "scripts": {
     "build:development": "node scripts/build-development-items.mjs",
+    "build:setting": "node scripts/build-setting-journals.mjs",
     "validate:development": "node scripts/validate-development-items.mjs",
     "validate:setting": "node scripts/validate-setting.mjs",
+    "validate:setting-journals": "node scripts/validate-setting-journals.mjs",
     "validate:repository": "node scripts/validate-repository.mjs",
     "check": "node scripts/check.mjs"
   },
