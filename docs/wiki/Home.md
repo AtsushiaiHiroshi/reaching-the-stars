@@ -22,3 +22,4 @@ La primera implementacion mecanica utiliza Starfinder Segunda Edicion. El nucleo
 - [[Prototipos-mecanicos]]
 - [[Herencias-y-dotes-iniciales]]
 - [[Esquema-Items-Foundry]]
+- [[Validacion-automatica]]

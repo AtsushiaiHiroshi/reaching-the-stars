@@ -9,3 +9,4 @@
 - [[Prototipos-mecanicos]]
 - [[Herencias-y-dotes-iniciales]]
 - [[Esquema-Items-Foundry]]
+- [[Validacion-automatica]]

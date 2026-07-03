@@ -1,0 +1,16 @@
+{
+  "name": "alcanzando-las-estrellas",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Herramientas de desarrollo y validacion para Alcanzando las Estrellas.",
+  "type": "module",
+  "scripts": {
+    "build:development": "node scripts/build-development-items.mjs",
+    "validate:development": "node scripts/validate-development-items.mjs",
+    "validate:repository": "node scripts/validate-repository.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=20.11"
+  }
+}

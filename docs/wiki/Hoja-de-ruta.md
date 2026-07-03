@@ -7,6 +7,7 @@
 - Adaptador inicial para SF2e.
 - Matriz de licencias y registro de fuentes.
 - Wiki y flujo de trabajo reproducible.
+- Validacion local y continua de fuentes, manifiesto y artefactos generados.
 
 ## Fase 2 - Especies
 
