@@ -19,3 +19,4 @@ La primera implementacion mecanica utiliza Starfinder Segunda Edicion. El nucleo
 - [[Politica-de-fuentes-y-licencias]]
 - [[Flujo-de-conversion-de-especies]]
 - [[Especies-SF1e-auditadas]]
+- [[Prototipos-mecanicos]]
