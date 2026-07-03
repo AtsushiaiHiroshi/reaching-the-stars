@@ -10,3 +10,4 @@
 - [[Herencias-y-dotes-iniciales]]
 - [[Esquema-Items-Foundry]]
 - [[Validacion-automatica]]
+- [[Atlas-sectorial]]

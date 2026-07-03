@@ -4,6 +4,7 @@ import path from "node:path";
 const scripts = [
   "build-development-items.mjs",
   "validate-development-items.mjs",
+  "validate-setting.mjs",
   "validate-repository.mjs",
 ];
 

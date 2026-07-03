@@ -7,6 +7,7 @@
   "scripts": {
     "build:development": "node scripts/build-development-items.mjs",
     "validate:development": "node scripts/validate-development-items.mjs",
+    "validate:setting": "node scripts/validate-setting.mjs",
     "validate:repository": "node scripts/validate-repository.mjs",
     "check": "node scripts/check.mjs"
   },

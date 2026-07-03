@@ -5,6 +5,7 @@ Base de desarrollo de una ambientacion de ciencia ficcion sin deidades objetivam
 ## Arquitectura
 
 - `data/`: registros neutrales de fuentes, conceptos y procedencia.
+- `data/setting/`: atlas neutral de sistemas, lugares, culturas, facciones y conflictos.
 - `scripts/`: nucleo del modulo y adaptadores de sistema.
 - `docs/`: biblia del mundo, politica de conversion y control de licencias.
 - `docs/wiki/`: fuente versionada de la Wiki de GitHub.

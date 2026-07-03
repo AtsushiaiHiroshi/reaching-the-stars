@@ -20,6 +20,7 @@
 ## Fase 3 - Universo
 
 - Sectores, sistemas, mundos y estaciones.
+- Primer sector neutral provisional: La Orla de Ceniza.
 - Culturas, lenguas, economias y conflictos.
 - Ecologias alienigenas y entornos espaciales.
 - Facciones, organizaciones y filosofias.

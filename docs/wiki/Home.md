@@ -23,3 +23,4 @@ La primera implementacion mecanica utiliza Starfinder Segunda Edicion. El nucleo
 - [[Herencias-y-dotes-iniciales]]
 - [[Esquema-Items-Foundry]]
 - [[Validacion-automatica]]
+- [[Atlas-sectorial]]

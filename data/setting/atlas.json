@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "canonStatus": "provisional",
+  "setting": "Alcanzando las Estrellas",
+  "metaphysics": {
+    "objectiveDeitiesExist": false,
+    "culturalBeliefsExist": true,
+    "rule": "Toda entidad observable es finita. Ser venerada o afirmar divinidad no demuestra que una entidad sea un dios."
+  },
+  "coordinateSystem": {
+    "type": "hex-cube",
+    "unit": "salto",
+    "constraint": "q + r + s = 0"
+  },
+  "sectors": [
+    {
+      "id": "orla-de-ceniza",
+      "name": "La Orla de Ceniza",
+      "status": "canon-provisional",
+      "summary": "Una frontera de estrellas envejecidas donde las rutas seguras dependen de balizas anteriores a las culturas actuales.",
+      "themes": ["frontera", "arqueologia estelar", "migracion", "economia de supervivencia"],
+      "systemIds": ["concordia", "marea-violeta", "farallon", "lumen-47", "osario-frio"],
+      "factionIds": ["asamblea-del-horizonte", "transito-helicoidal", "coro-de-basalto", "silencio-radioelectrico", "pacto-de-agua-negra"],
+      "conflictIds": ["balizas-mudas", "diezmo-de-oxigeno", "senal-que-responde"]
+    }
+  ],
+  "systems": [
+    {
+      "id": "concordia",
+      "sectorId": "orla-de-ceniza",
+      "name": "Concordia",
+      "coordinates": {"q": 0, "r": 0, "s": 0},
+      "primary": "enana naranja estable",
+      "summary": "Centro diplomatico y logistico construido alrededor del unico corredor de saltos que nunca ha fallado.",
+      "locationIds": ["cuna-de-cobre", "concordia-axial"],
+      "cultureIds": ["clados-de-cobre", "ciudadania-axial"],
+      "tags": ["capital regional", "astillero", "puerta de salto"]
+    },
+    {
+      "id": "marea-violeta",
+      "sectorId": "orla-de-ceniza",
+      "name": "Marea Violeta",
+      "coordinates": {"q": 1, "r": -1, "s": 0},
+      "primary": "estrella blanca variable",
+      "summary": "Sistema oceanico cuya biosfera produce compuestos indispensables para el soporte vital de larga duracion.",
+      "locationIds": ["pelago-violeta", "puerto-anemona"],
+      "cultureIds": ["navegantes-pelagicos"],
+      "tags": ["oceano", "biotecnologia", "tormentas magneticas"]
+    },
+    {
+      "id": "farallon",
+      "sectorId": "orla-de-ceniza",
+      "name": "Farallon",
+      "coordinates": {"q": -1, "r": 0, "s": 1},
+      "primary": "binaria compacta",
+      "summary": "Cinturones minerales y habitats excavados disputan cada tonelada de hielo y metal accesible.",
+      "locationIds": ["roca-jurada", "ascensor-de-polvo"],
+      "cultureIds": ["casas-de-vacio"],
+      "tags": ["mineria", "habitats", "sindicatos"]
+    },
+    {
+      "id": "lumen-47",
+      "sectorId": "orla-de-ceniza",
+      "name": "Lumen 47",
+      "coordinates": {"q": 0, "r": 1, "s": -1},
+      "primary": "pulsar milisegundo",
+      "summary": "Observatorios blindados escuchan patrones imposibles dentro del ruido de un pulsar artificialmente estabilizado.",
+      "locationIds": ["observatorio-cuarenta-y-siete", "jardin-de-jaulas"],
+      "cultureIds": ["oyentes-del-intervalo"],
+      "tags": ["investigacion", "radiacion", "senal anomala"]
+    },
+    {
+      "id": "osario-frio",
+      "sectorId": "orla-de-ceniza",
+      "name": "Osario Frio",
+      "coordinates": {"q": 1, "r": 0, "s": -1},
+      "primary": "estrella de neutrones inactiva",
+      "summary": "Un campo de naves sin tripulacion orbita una estrella oscura; algunas conservan energia y ninguna admite haber enviado una llamada.",
+      "locationIds": ["flota-sin-nombre", "faro-inverso"],
+      "cultureIds": [],
+      "tags": ["derelictos", "horror espacial", "zona de exclusion"]
+    }
+  ],
+  "locations": [
+    {"id":"cuna-de-cobre","systemId":"concordia","type":"planet","name":"Cuna de Cobre","summary":"Mundo industrial de gravedad alta donde ciudades moviles siguen la franja templada."},
+    {"id":"concordia-axial","systemId":"concordia","type":"station","name":"Concordia Axial","summary":"Estacion neutral construida por capas alrededor de una baliza de salto que nadie puede apagar."},
+    {"id":"pelago-violeta","systemId":"marea-violeta","type":"moon","name":"Pelago Violeta","summary":"Luna oceanica iluminada por floraciones bioluminiscentes y auroras letales."},
+    {"id":"puerto-anemona","systemId":"marea-violeta","type":"station","name":"Puerto Anemona","summary":"Arrecife-habitat cultivado para recibir naves sin contaminar el oceano inferior."},
+    {"id":"roca-jurada","systemId":"farallon","type":"habitat","name":"Roca Jurada","summary":"Confederacion de minas donde cada esclusa pertenece a un contrato distinto."},
+    {"id":"ascensor-de-polvo","systemId":"farallon","type":"megastructure","name":"Ascensor de Polvo","summary":"Cadena de recolectores electromagneticos que extrae material de un disco circumbinario."},
+    {"id":"observatorio-cuarenta-y-siete","systemId":"lumen-47","type":"station","name":"Observatorio Cuarenta y Siete","summary":"Laboratorio fortificado que mide el pulsar en turnos aislados para evitar sesgos colectivos."},
+    {"id":"jardin-de-jaulas","systemId":"lumen-47","type":"habitat","name":"Jardin de Jaulas","summary":"Invernaderos dentro de jaulas de Faraday, hogar de quienes mantienen vivo el observatorio."},
+    {"id":"flota-sin-nombre","systemId":"osario-frio","type":"derelict-field","name":"La Flota sin Nombre","summary":"Miles de cascos incompatibles ordenados como si hubieran llegado siguiendo una misma instruccion."},
+    {"id":"faro-inverso","systemId":"osario-frio","type":"anomaly","name":"El Faro Inverso","summary":"Objeto que absorbe transmisiones dirigidas y las devuelve anos despues con respuestas incompletas."}
+  ],
+  "cultures": [
+    {"id":"clados-de-cobre","name":"Clados de Cobre","summary":"Linajes laborales que consideran el mantenimiento una responsabilidad heredada, no una casta.","beliefIds":["memoria-del-metal"]},
+    {"id":"ciudadania-axial","name":"Ciudadania Axial","summary":"Identidad civica adoptada por residentes de la estacion sin exigir especie, origen ni planeta natal.","beliefIds":["pacto-del-eje"]},
+    {"id":"navegantes-pelagicos","name":"Navegantes Pelagicos","summary":"Comunidades anfibias y orbitales que negocian el uso del oceano como un bien intergeneracional.","beliefIds":["marea-que-recuerda"]},
+    {"id":"casas-de-vacio","name":"Casas de Vacio","summary":"Redes de parentesco elegidas que comparten aire, deuda y responsabilidad de rescate.","beliefIds":["ultima-bocanada"]},
+    {"id":"oyentes-del-intervalo","name":"Oyentes del Intervalo","summary":"Cientificos, artistas y contemplativos que estudian silencios repetidos entre pulsos.","beliefIds":["doctrina-del-intervalo"]}
+  ],
+  "beliefs": [
+    {"id":"memoria-del-metal","name":"La Memoria del Metal","claim":"Los objetos conservan la intencion de quienes los reparan.","status":"creencia cultural no verificada"},
+    {"id":"pacto-del-eje","name":"El Pacto del Eje","claim":"Toda autoridad legitima debe poder ser reemplazada sin detener la estacion.","status":"filosofia civica"},
+    {"id":"marea-que-recuerda","name":"La Marea que Recuerda","claim":"El oceano devuelve transformado todo lo que una generacion deposita en el.","status":"metafora ecologica y creencia ritual"},
+    {"id":"ultima-bocanada","name":"La Ultima Bocanada","claim":"Nadie posee aire mientras otra persona pueda ser rescatada con el.","status":"juramento comunitario"},
+    {"id":"doctrina-del-intervalo","name":"La Doctrina del Intervalo","claim":"Los silencios del pulsar contienen una mente que todavia no sabe hablar.","status":"hipotesis disputada; no demuestra divinidad"}
+  ],
+  "factions": [
+    {"id":"asamblea-del-horizonte","name":"Asamblea del Horizonte","scope":"regional","goal":"Mantener rutas, arbitraje y rescate como bienes comunes.","methods":["tratados", "misiones de auxilio", "cartografia abierta"]},
+    {"id":"transito-helicoidal","name":"Consorcio de Transito Helicoidal","scope":"regional","goal":"Controlar la infraestructura de salto mediante concesiones exclusivas.","methods":["deuda", "patentes", "seguridad privada"]},
+    {"id":"coro-de-basalto","name":"Coro de Basalto","scope":"Farallon","goal":"Proteger la autonomia de habitats y trabajadores de vacio.","methods":["sindicatos", "sabotaje no letal", "fondos de rescate"]},
+    {"id":"silencio-radioelectrico","name":"Custodios del Silencio Radioelectrico","scope":"Lumen 47","goal":"Impedir que la senal anomala sea amplificada antes de comprenderla.","methods":["cuarentena informativa", "interferencia", "revision cientifica"]},
+    {"id":"pacto-de-agua-negra","name":"Pacto de Agua Negra","scope":"Marea Violeta","goal":"Evitar la apropiacion irreversible de la biosfera oceanica.","methods":["custodia biologica", "embargos", "diplomacia"]}
+  ],
+  "conflicts": [
+    {"id":"balizas-mudas","name":"La Guerra de las Balizas Mudas","status":"tension abierta","summary":"Varias balizas han dejado de reconocer naves no registradas por el Consorcio.","participantIds":["asamblea-del-horizonte", "transito-helicoidal"]},
+    {"id":"diezmo-de-oxigeno","name":"La Crisis del Diezmo de Oxigeno","status":"crisis economica","summary":"Farallon rechaza pagar derechos de transito con reservas de soporte vital.","participantIds":["transito-helicoidal", "coro-de-basalto"]},
+    {"id":"senal-que-responde","name":"La Senal que Responde","status":"misterio contenido","summary":"El patron de Lumen 47 cambia cuando una nave desaparece cerca del Osario Frio.","participantIds":["silencio-radioelectrico", "asamblea-del-horizonte"]}
+  ]
+}
