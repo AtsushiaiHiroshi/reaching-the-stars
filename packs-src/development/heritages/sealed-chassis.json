@@ -1,0 +1,52 @@
+{
+  "_id": "sAiCli3uwBknV4jn",
+  "img": "systems/sf2e/icons/default-icons/heritage.svg",
+  "name": "Chasis sellado",
+  "system": {
+    "ancestry": {
+      "name": "SRO",
+      "slug": "sro",
+      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.SKf1iPpy7PBsi2Fg"
+    },
+    "description": {
+      "value": "<p>Herencia de desarrollo. {\"environmentalSaveBonus\":1,\"bonusType\":\"circumstance\",\"atmosphereTolerance\":\"1 hour without breathable atmosphere\"}</p><p>Development heritage. {\"environmentalSaveBonus\":1,\"bonusType\":\"circumstance\",\"atmosphereTolerance\":\"1 hour without breathable atmosphere\"}</p>"
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "uncommon",
+      "value": []
+    },
+    "slug": "sealed-chassis",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Chasis sellado",
+          "description": "Herencia de desarrollo. {\"environmentalSaveBonus\":1,\"bonusType\":\"circumstance\",\"atmosphereTolerance\":\"1 hour without breathable atmosphere\"}"
+        },
+        "en": {
+          "name": "Sealed Chassis",
+          "description": "Development heritage. {\"environmentalSaveBonus\":1,\"bonusType\":\"circumstance\",\"atmosphereTolerance\":\"1 hour without breathable atmosphere\"}"
+        }
+      }
+    }
+  }
+}

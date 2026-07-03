@@ -1,0 +1,52 @@
+{
+  "_id": "2u4wkeYL5Gd1O43s",
+  "img": "systems/sf2e/icons/default-icons/heritage.svg",
+  "name": "Nuar de cuernos pesados",
+  "system": {
+    "ancestry": {
+      "name": "Nuar",
+      "slug": "nuar",
+      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.M8yjTQHiW8A21s7V"
+    },
+    "description": {
+      "value": "<p>Herencia de desarrollo. {\"strikeAlteration\":\"horn damage die becomes d8 and loses its maneuver trait\"}</p><p>Development heritage. {\"strikeAlteration\":\"horn damage die becomes d8 and loses its maneuver trait\"}</p>"
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "uncommon",
+      "value": []
+    },
+    "slug": "heavy-horned-nuar",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Nuar de cuernos pesados",
+          "description": "Herencia de desarrollo. {\"strikeAlteration\":\"horn damage die becomes d8 and loses its maneuver trait\"}"
+        },
+        "en": {
+          "name": "Heavy-Horned Nuar",
+          "description": "Development heritage. {\"strikeAlteration\":\"horn damage die becomes d8 and loses its maneuver trait\"}"
+        }
+      }
+    }
+  }
+}

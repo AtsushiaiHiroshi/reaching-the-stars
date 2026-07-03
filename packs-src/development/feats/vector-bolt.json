@@ -1,0 +1,88 @@
+{
+  "_id": "2ySZl1y3QG83IfAz",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Rayo vectorial",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Gain a 30-foot ranged unarmed Strike that deals 1d4 force damage and has the magical trait. It uses an active hand and can benefit from effects that improve unarmed attacks.</p><p>Gain a 30-foot ranged unarmed Strike that deals 1d4 force damage and has the magical trait. It uses an active hand and can benefit from effects that improve unarmed attacks.</p>"
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "force",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/sf2e/icons/default-icons/melee.svg",
+        "key": "Strike",
+        "label": "Vector Bolt",
+        "range": null,
+        "slug": "vector-bolt",
+        "traits": [
+          "magical",
+          "unarmed"
+        ]
+      }
+    ],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "witchwyrd"
+      ]
+    },
+    "slug": "vector-bolt",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Rayo vectorial",
+          "description": "Gain a 30-foot ranged unarmed Strike that deals 1d4 force damage and has the magical trait. It uses an active hand and can benefit from effects that improve unarmed attacks."
+        },
+        "en": {
+          "name": "Vector Bolt",
+          "description": "Gain a 30-foot ranged unarmed Strike that deals 1d4 force damage and has the magical trait. It uses an active hand and can benefit from effects that improve unarmed attacks."
+        }
+      }
+    }
+  }
+}

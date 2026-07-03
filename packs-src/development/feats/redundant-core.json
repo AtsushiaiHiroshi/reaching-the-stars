@@ -1,0 +1,71 @@
+{
+  "_id": "JTmGtapGnN9m2xb0",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Nucleo redundante",
+  "system": {
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Remain at 1 Hit Point and increase your wounded value by 1. Desencadenante: You would be reduced to 0 Hit Points.</p><p>Remain at 1 Hit Point and increase your wounded value by 1. Trigger: You would be reduced to 0 Hit Points.</p>"
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "sro"
+      ]
+    },
+    "slug": "redundant-core",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Nucleo redundante",
+          "description": "Remain at 1 Hit Point and increase your wounded value by 1. Desencadenante: You would be reduced to 0 Hit Points."
+        },
+        "en": {
+          "name": "Redundant Core",
+          "description": "Remain at 1 Hit Point and increase your wounded value by 1. Trigger: You would be reduced to 0 Hit Points."
+        }
+      }
+    }
+  }
+}

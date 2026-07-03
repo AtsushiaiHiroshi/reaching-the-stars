@@ -1,0 +1,57 @@
+{
+  "_id": "2Nc2i87HlQv6rkAS",
+  "img": "systems/sf2e/icons/default-icons/heritage.svg",
+  "name": "Chasis compacto",
+  "system": {
+    "ancestry": {
+      "name": "SRO",
+      "slug": "sro",
+      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.SKf1iPpy7PBsi2Fg"
+    },
+    "description": {
+      "value": "<p>Herencia de desarrollo. {\"ruleElement\":\"CreatureSize\",\"value\":\"small\"}</p><p>Development heritage. {\"ruleElement\":\"CreatureSize\",\"value\":\"small\"}</p>"
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [
+      {
+        "key": "CreatureSize",
+        "value": "small"
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": []
+    },
+    "slug": "compact-chassis",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Chasis compacto",
+          "description": "Herencia de desarrollo. {\"ruleElement\":\"CreatureSize\",\"value\":\"small\"}"
+        },
+        "en": {
+          "name": "Compact Chassis",
+          "description": "Development heritage. {\"ruleElement\":\"CreatureSize\",\"value\":\"small\"}"
+        }
+      }
+    }
+  }
+}

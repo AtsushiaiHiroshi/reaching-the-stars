@@ -1,0 +1,71 @@
+{
+  "_id": "1ppwZ9CfIo2n35kx",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Devolver el vector",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>When you have a stored force charge, your next Vector Bolt before the charge expires deals two additional weapon damage dice and pushes the target 5 feet on a hit.</p><p>When you have a stored force charge, your next Vector Bolt before the charge expires deals two additional weapon damage dice and pushes the target 5 feet on a hit.</p>"
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Catch the Vector"
+        }
+      ]
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "witchwyrd"
+      ]
+    },
+    "slug": "return-the-vector",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Devolver el vector",
+          "description": "When you have a stored force charge, your next Vector Bolt before the charge expires deals two additional weapon damage dice and pushes the target 5 feet on a hit."
+        },
+        "en": {
+          "name": "Return the Vector",
+          "description": "When you have a stored force charge, your next Vector Bolt before the charge expires deals two additional weapon damage dice and pushes the target 5 feet on a hit."
+        }
+      }
+    }
+  }
+}

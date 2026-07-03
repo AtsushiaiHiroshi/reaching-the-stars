@@ -1,0 +1,73 @@
+{
+  "_id": "sAAoYrbzwPdMzXkl",
+  "img": "systems/sf2e/icons/default-icons/heritage.svg",
+  "name": "Reptoid de garras",
+  "system": {
+    "ancestry": {
+      "name": "Reptoid",
+      "slug": "reptoid",
+      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.u0PMRrAa2oOZgHgT"
+    },
+    "description": {
+      "value": "<p>Herencia de desarrollo. {\"ruleElement\":\"Strike\",\"damage\":\"1d6 slashing\",\"traits\":[\"finesse\",\"unarmed\"]}</p><p>Development heritage. {\"ruleElement\":\"Strike\",\"damage\":\"1d6 slashing\",\"traits\":[\"finesse\",\"unarmed\"]}</p>"
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/sf2e/icons/default-icons/melee.svg",
+        "key": "Strike",
+        "label": "Clawed Reptoid",
+        "range": null,
+        "slug": "clawed-reptoid",
+        "traits": [
+          "finesse",
+          "unarmed"
+        ]
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": []
+    },
+    "slug": "clawed-reptoid",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Reptoid de garras",
+          "description": "Herencia de desarrollo. {\"ruleElement\":\"Strike\",\"damage\":\"1d6 slashing\",\"traits\":[\"finesse\",\"unarmed\"]}"
+        },
+        "en": {
+          "name": "Clawed Reptoid",
+          "description": "Development heritage. {\"ruleElement\":\"Strike\",\"damage\":\"1d6 slashing\",\"traits\":[\"finesse\",\"unarmed\"]}"
+        }
+      }
+    }
+  }
+}

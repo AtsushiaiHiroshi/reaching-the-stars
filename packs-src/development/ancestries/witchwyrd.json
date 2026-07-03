@@ -1,0 +1,93 @@
+{
+  "_id": "4dAGnl52i8EOBlxG",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
+  "name": "Witchwyrd",
+  "system": {
+    "additionalLanguages": {
+      "count": 0,
+      "custom": "",
+      "value": []
+    },
+    "boosts": {
+      "0": {
+        "value": "int"
+      },
+      "1": {
+        "value": "cha"
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "description": {
+      "value": "<p>Prototipo mecanico de desarrollo. Rasgo base: Four-Armed: one active pair of hands, switched using the standard SF2e action.</p><p>Development mechanical prototype. Baseline feature: Four-Armed: one active pair of hands, switched using the standard SF2e action.</p>"
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "con"
+        ]
+      }
+    },
+    "hands": 4,
+    "hp": 6,
+    "items": {},
+    "languages": {
+      "custom": "",
+      "value": [
+        "common"
+      ]
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "reach": 5,
+    "rules": [],
+    "size": "med",
+    "speed": 25,
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "humanoid",
+        "witchwyrd"
+      ]
+    },
+    "vision": "darkvision",
+    "slug": "witchwyrd",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "ancestry",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Witchwyrd",
+          "description": "Prototipo mecanico de desarrollo. Rasgo base: Four-Armed: one active pair of hands, switched using the standard SF2e action."
+        },
+        "en": {
+          "name": "Witchwyrd",
+          "description": "Development mechanical prototype. Baseline feature: Four-Armed: one active pair of hands, switched using the standard SF2e action."
+        }
+      }
+    }
+  }
+}

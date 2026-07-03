@@ -1,0 +1,71 @@
+{
+  "_id": "sMEjPTCyJp3itzaD",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Atrapar el vector",
+  "system": {
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Gain resistance to the triggering damage equal to your level. If damage remains, store a force charge until the end of your next turn. Desencadenante: You would take force damage and have a free active hand.</p><p>Gain resistance to the triggering damage equal to your level. If damage remains, store a force charge until the end of your next turn. Trigger: You would take force damage and have a free active hand.</p>"
+    },
+    "level": {
+      "value": 9
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "witchwyrd"
+      ]
+    },
+    "slug": "catch-the-vector",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Atrapar el vector",
+          "description": "Gain resistance to the triggering damage equal to your level. If damage remains, store a force charge until the end of your next turn. Desencadenante: You would take force damage and have a free active hand."
+        },
+        "en": {
+          "name": "Catch the Vector",
+          "description": "Gain resistance to the triggering damage equal to your level. If damage remains, store a force charge until the end of your next turn. Trigger: You would take force damage and have a free active hand."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "_id": "e1Lq6aOCrCF5ohjB",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Fase momentanea",
+  "system": {
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Gain a +2 circumstance bonus to AC against the triggering attack. If it misses, you can Step 5 feet. Desencadenante: You are targeted by an attack you can perceive.</p><p>Gain a +2 circumstance bonus to AC against the triggering attack. If it misses, you can Step 5 feet. Trigger: You are targeted by an attack you can perceive.</p>"
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "gray"
+      ]
+    },
+    "slug": "momentary-phase",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Fase momentanea",
+          "description": "Gain a +2 circumstance bonus to AC against the triggering attack. If it misses, you can Step 5 feet. Desencadenante: You are targeted by an attack you can perceive."
+        },
+        "en": {
+          "name": "Momentary Phase",
+          "description": "Gain a +2 circumstance bonus to AC against the triggering attack. If it misses, you can Step 5 feet. Trigger: You are targeted by an attack you can perceive."
+        }
+      }
+    }
+  }
+}

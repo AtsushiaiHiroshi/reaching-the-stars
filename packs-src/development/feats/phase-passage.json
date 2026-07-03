@@ -1,0 +1,71 @@
+{
+  "_id": "Zyf7sb7W6YYStJTf",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Pasaje de fase",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Move up to 15 feet through creatures or solid objects. You must end in an open space you can perceive; otherwise the action fails and you remain in place.</p><p>Move up to 15 feet through creatures or solid objects. You must end in an open space you can perceive; otherwise the action fails and you remain in place.</p>"
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "gray"
+      ]
+    },
+    "slug": "phase-passage",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Pasaje de fase",
+          "description": "Move up to 15 feet through creatures or solid objects. You must end in an open space you can perceive; otherwise the action fails and you remain in place."
+        },
+        "en": {
+          "name": "Phase Passage",
+          "description": "Move up to 15 feet through creatures or solid objects. You must end in an open space you can perceive; otherwise the action fails and you remain in place."
+        }
+      }
+    }
+  }
+}

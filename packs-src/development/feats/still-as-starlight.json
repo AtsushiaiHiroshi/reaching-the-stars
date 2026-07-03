@@ -1,0 +1,67 @@
+{
+  "_id": "9LHanhW4cifKbMcm",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Inmovil como la luz estelar",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>If your chromatophores are sufficiently exposed and you have not moved since the end of your last turn, you can Hide without cover. Moving ends the benefit.</p><p>If your chromatophores are sufficiently exposed and you have not moved since the end of your last turn, you can Hide without cover. Moving ends the benefit.</p>"
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "verthani"
+      ]
+    },
+    "slug": "still-as-starlight",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Inmovil como la luz estelar",
+          "description": "If your chromatophores are sufficiently exposed and you have not moved since the end of your last turn, you can Hide without cover. Moving ends the benefit."
+        },
+        "en": {
+          "name": "Still as Starlight",
+          "description": "If your chromatophores are sufficiently exposed and you have not moved since the end of your last turn, you can Hide without cover. Moving ends the benefit."
+        }
+      }
+    }
+  }
+}

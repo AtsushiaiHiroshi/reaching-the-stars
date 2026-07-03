@@ -1,0 +1,67 @@
+{
+  "_id": "JhTjH5CWYV1Zb5uY",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Reconfiguracion rapida",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You can replace a prepared identity with 10 minutes of work rather than downtime, and you can retain two prepared identities.</p><p>You can replace a prepared identity with 10 minutes of work rather than downtime, and you can retain two prepared identities.</p>"
+    },
+    "level": {
+      "value": 9
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "reptoid"
+      ]
+    },
+    "slug": "rapid-reconfiguration",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Reconfiguracion rapida",
+          "description": "You can replace a prepared identity with 10 minutes of work rather than downtime, and you can retain two prepared identities."
+        },
+        "en": {
+          "name": "Rapid Reconfiguration",
+          "description": "You can replace a prepared identity with 10 minutes of work rather than downtime, and you can retain two prepared identities."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "_id": "SART1brHgZLbEAAU",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Ruta infalible",
+  "system": {
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>The triggering creature rerolls the check or save and uses the better result. Desencadenante: You or an ally within 30 feet fails a check or save against a trap, environmental hazard, or navigation effect.</p><p>The triggering creature rerolls the check or save and uses the better result. Trigger: You or an ally within 30 feet fails a check or save against a trap, environmental hazard, or navigation effect.</p>"
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "nuar"
+      ]
+    },
+    "slug": "unerring-route",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Ruta infalible",
+          "description": "The triggering creature rerolls the check or save and uses the better result. Desencadenante: You or an ally within 30 feet fails a check or save against a trap, environmental hazard, or navigation effect."
+        },
+        "en": {
+          "name": "Unerring Route",
+          "description": "The triggering creature rerolls the check or save and uses the better result. Trigger: You or an ally within 30 feet fails a check or save against a trap, environmental hazard, or navigation effect."
+        }
+      }
+    }
+  }
+}

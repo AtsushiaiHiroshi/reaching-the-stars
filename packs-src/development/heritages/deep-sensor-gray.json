@@ -1,0 +1,59 @@
+{
+  "_id": "ctRFEk0sgSJlZvjX",
+  "img": "systems/sf2e/icons/default-icons/heritage.svg",
+  "name": "Gray sensor profundo",
+  "system": {
+    "ancestry": {
+      "name": "Gray",
+      "slug": "gray",
+      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.weyTGfCijeFiUsnr"
+    },
+    "description": {
+      "value": "<p>Herencia de desarrollo. {\"ruleElement\":\"Sense\",\"selector\":\"thoughtsense\",\"acuity\":\"vague\",\"range\":10}</p><p>Development heritage. {\"ruleElement\":\"Sense\",\"selector\":\"thoughtsense\",\"acuity\":\"vague\",\"range\":10}</p>"
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [
+      {
+        "acuity": "vague",
+        "key": "Sense",
+        "range": 10,
+        "selector": "thoughtsense"
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": []
+    },
+    "slug": "deep-sensor-gray",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Gray sensor profundo",
+          "description": "Herencia de desarrollo. {\"ruleElement\":\"Sense\",\"selector\":\"thoughtsense\",\"acuity\":\"vague\",\"range\":10}"
+        },
+        "en": {
+          "name": "Deep-Sensor Gray",
+          "description": "Development heritage. {\"ruleElement\":\"Sense\",\"selector\":\"thoughtsense\",\"acuity\":\"vague\",\"range\":10}"
+        }
+      }
+    }
+  }
+}

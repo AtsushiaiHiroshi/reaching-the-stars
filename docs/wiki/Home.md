@@ -21,3 +21,4 @@ La primera implementacion mecanica utiliza Starfinder Segunda Edicion. El nucleo
 - [[Especies-SF1e-auditadas]]
 - [[Prototipos-mecanicos]]
 - [[Herencias-y-dotes-iniciales]]
+- [[Esquema-Items-Foundry]]

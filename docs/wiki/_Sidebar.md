@@ -8,3 +8,4 @@
 - [[Especies-SF1e-auditadas]]
 - [[Prototipos-mecanicos]]
 - [[Herencias-y-dotes-iniciales]]
+- [[Esquema-Items-Foundry]]

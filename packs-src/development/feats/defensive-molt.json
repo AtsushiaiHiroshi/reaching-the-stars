@@ -1,0 +1,71 @@
+{
+  "_id": "a2rOWHyfqMQUGbXn",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Muda defensiva",
+  "system": {
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Attempt to Escape with a +2 circumstance bonus. On a success, you can also Step. Desencadenante: You become grabbed or restrained.</p><p>Attempt to Escape with a +2 circumstance bonus. On a success, you can also Step. Trigger: You become grabbed or restrained.</p>"
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "reptoid"
+      ]
+    },
+    "slug": "defensive-molt",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Muda defensiva",
+          "description": "Attempt to Escape with a +2 circumstance bonus. On a success, you can also Step. Desencadenante: You become grabbed or restrained."
+        },
+        "en": {
+          "name": "Defensive Molt",
+          "description": "Attempt to Escape with a +2 circumstance bonus. On a success, you can also Step. Trigger: You become grabbed or restrained."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "_id": "TEceKFoAAa3CVHyD",
+  "img": "systems/sf2e/icons/default-icons/heritage.svg",
+  "name": "Nuar de mente laberintica",
+  "system": {
+    "ancestry": {
+      "name": "Nuar",
+      "slug": "nuar",
+      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.M8yjTQHiW8A21s7V"
+    },
+    "description": {
+      "value": "<p>Herencia de desarrollo. {\"trainedSkill\":\"Survival\",\"fallbackLore\":\"Maze Lore\"}</p><p>Development heritage. {\"trainedSkill\":\"Survival\",\"fallbackLore\":\"Maze Lore\"}</p>"
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.survival.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": []
+    },
+    "slug": "labyrinthine-mind-nuar",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Nuar de mente laberintica",
+          "description": "Herencia de desarrollo. {\"trainedSkill\":\"Survival\",\"fallbackLore\":\"Maze Lore\"}"
+        },
+        "en": {
+          "name": "Labyrinthine-Mind Nuar",
+          "description": "Development heritage. {\"trainedSkill\":\"Survival\",\"fallbackLore\":\"Maze Lore\"}"
+        }
+      }
+    }
+  }
+}

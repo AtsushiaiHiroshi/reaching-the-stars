@@ -1,0 +1,71 @@
+{
+  "_id": "r9Mww5CEPkLpgPEy",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Trayectoria perfecta",
+  "system": {
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Reroll the triggering check and use the better result. Desencadenante: You fail an attack roll or a skill check involving movement, position, a structure, or a machine.</p><p>Reroll the triggering check and use the better result. Trigger: You fail an attack roll or a skill check involving movement, position, a structure, or a machine.</p>"
+    },
+    "level": {
+      "value": 17
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "nuar"
+      ]
+    },
+    "slug": "perfect-trajectory",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Trayectoria perfecta",
+          "description": "Reroll the triggering check and use the better result. Desencadenante: You fail an attack roll or a skill check involving movement, position, a structure, or a machine."
+        },
+        "en": {
+          "name": "Perfect Trajectory",
+          "description": "Reroll the triggering check and use the better result. Trigger: You fail an attack roll or a skill check involving movement, position, a structure, or a machine."
+        }
+      }
+    }
+  }
+}

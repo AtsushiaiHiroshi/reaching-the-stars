@@ -1,0 +1,67 @@
+{
+  "_id": "QGyLJLfjI3F7SHFm",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Modales prestados",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>After observing a creature for 10 minutes, gain a +1 circumstance bonus to Impersonate that creature or a member of its culture for 24 hours.</p><p>After observing a creature for 10 minutes, gain a +1 circumstance bonus to Impersonate that creature or a member of its culture for 24 hours.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "reptoid"
+      ]
+    },
+    "slug": "borrowed-mannerisms",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Modales prestados",
+          "description": "After observing a creature for 10 minutes, gain a +1 circumstance bonus to Impersonate that creature or a member of its culture for 24 hours."
+        },
+        "en": {
+          "name": "Borrowed Mannerisms",
+          "description": "After observing a creature for 10 minutes, gain a +1 circumstance bonus to Impersonate that creature or a member of its culture for 24 hours."
+        }
+      }
+    }
+  }
+}

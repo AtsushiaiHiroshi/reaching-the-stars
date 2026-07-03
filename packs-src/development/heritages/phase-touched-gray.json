@@ -1,0 +1,66 @@
+{
+  "_id": "nggKuvm9ae2y8hPv",
+  "img": "systems/sf2e/icons/default-icons/heritage.svg",
+  "name": "Gray tocado por la fase",
+  "system": {
+    "ancestry": {
+      "name": "Gray",
+      "slug": "gray",
+      "uuid": "Compendium.alcanzando-las-estrellas.ale-ancestries.Item.weyTGfCijeFiUsnr"
+    },
+    "description": {
+      "value": "<p>Herencia de desarrollo. {\"saveBonus\":1,\"bonusType\":\"circumstance\",\"against\":[\"force\",\"teleportation\",\"forced movement\"]}</p><p>Development heritage. {\"saveBonus\":1,\"bonusType\":\"circumstance\",\"against\":[\"force\",\"teleportation\",\"forced movement\"]}</p>"
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:force"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": []
+    },
+    "slug": "phase-touched-gray",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Gray tocado por la fase",
+          "description": "Herencia de desarrollo. {\"saveBonus\":1,\"bonusType\":\"circumstance\",\"against\":[\"force\",\"teleportation\",\"forced movement\"]}"
+        },
+        "en": {
+          "name": "Phase-Touched Gray",
+          "description": "Development heritage. {\"saveBonus\":1,\"bonusType\":\"circumstance\",\"against\":[\"force\",\"teleportation\",\"forced movement\"]}"
+        }
+      }
+    }
+  }
+}

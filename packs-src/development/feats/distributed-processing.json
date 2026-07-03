@@ -1,0 +1,71 @@
+{
+  "_id": "yAlyamW1A0sfenn8",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Procesamiento distribuido",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You are quickened. The extra action can be used only to Interact, Recall Knowledge, Seek, Step, or deploy or stow an integrated tool. Duracion: 1 minute</p><p>You are quickened. The extra action can be used only to Interact, Recall Knowledge, Seek, Step, or deploy or stow an integrated tool. Duration: 1 minute</p>"
+    },
+    "level": {
+      "value": 17
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Alcanzando las Estrellas (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "sro"
+      ]
+    },
+    "slug": "distributed-processing",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "alcanzando-las-estrellas": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Procesamiento distribuido",
+          "description": "You are quickened. The extra action can be used only to Interact, Recall Knowledge, Seek, Step, or deploy or stow an integrated tool. Duracion: 1 minute"
+        },
+        "en": {
+          "name": "Distributed Processing",
+          "description": "You are quickened. The extra action can be used only to Interact, Recall Knowledge, Seek, Step, or deploy or stow an integrated tool. Duration: 1 minute"
+        }
+      }
+    }
+  }
+}
