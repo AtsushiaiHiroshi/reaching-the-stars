@@ -1,0 +1,66 @@
+{
+  "_id": "oQAnWpzsu0VvlipI",
+  "img": "systems/sf2e/icons/default-icons/heritage.svg",
+  "name": "Verthani guardian del terminador",
+  "system": {
+    "ancestry": {
+      "name": "Verthani",
+      "slug": "verthani",
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.tVcIxqtKbZ9yaLif"
+    },
+    "description": {
+      "value": "<p>Herencia de desarrollo. {\"choice\":\"cold, fire, or radiation\",\"saveBonus\":1,\"bonusType\":\"circumstance\"}</p><p>Development heritage. {\"choice\":\"cold, fire, or radiation\",\"saveBonus\":1,\"bonusType\":\"circumstance\"}</p>"
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:radiation"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": []
+    },
+    "slug": "terminator-warden-verthani",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Verthani guardian del terminador",
+          "description": "Herencia de desarrollo. {\"choice\":\"cold, fire, or radiation\",\"saveBonus\":1,\"bonusType\":\"circumstance\"}"
+        },
+        "en": {
+          "name": "Terminator-Warden Verthani",
+          "description": "Development heritage. {\"choice\":\"cold, fire, or radiation\",\"saveBonus\":1,\"bonusType\":\"circumstance\"}"
+        }
+      }
+    }
+  }
+}

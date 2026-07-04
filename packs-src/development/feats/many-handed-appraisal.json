@@ -1,0 +1,67 @@
+{
+  "_id": "VXsAgPg6L5mo83Cc",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Tasacion de muchas manos",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You can Identify an item while holding it in any hand and gain a +1 circumstance bonus to Recall Knowledge about manufactured goods and trade routes.</p><p>You can Identify an item while holding it in any hand and gain a +1 circumstance bonus to Recall Knowledge about manufactured goods and trade routes.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "witchwyrd"
+      ]
+    },
+    "slug": "many-handed-appraisal",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Tasacion de muchas manos",
+          "description": "You can Identify an item while holding it in any hand and gain a +1 circumstance bonus to Recall Knowledge about manufactured goods and trade routes."
+        },
+        "en": {
+          "name": "Many-Handed Appraisal",
+          "description": "You can Identify an item while holding it in any hand and gain a +1 circumstance bonus to Recall Knowledge about manufactured goods and trade routes."
+        }
+      }
+    }
+  }
+}

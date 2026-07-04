@@ -1,0 +1,114 @@
+{
+  "_id": "FpGsdxRMbSuMzheS",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
+  "name": "Nuar",
+  "system": {
+    "additionalLanguages": {
+      "count": 0,
+      "custom": "",
+      "value": []
+    },
+    "boosts": {
+      "0": {
+        "value": "str"
+      },
+      "1": {
+        "value": "int"
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "description": {
+      "value": "<p>Prototipo mecanico de desarrollo. Rasgo base: Horns: 1d6 piercing unarmed Strike with shove or another single maneuver trait after playtest.</p><p>Development mechanical prototype. Baseline feature: Horns: 1d6 piercing unarmed Strike with shove or another single maneuver trait after playtest.</p>"
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "dex"
+        ]
+      }
+    },
+    "hands": 2,
+    "hp": 8,
+    "items": {},
+    "languages": {
+      "custom": "",
+      "value": [
+        "common"
+      ]
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "reach": 5,
+    "rules": [
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/sf2e/icons/default-icons/melee.svg",
+        "key": "Strike",
+        "label": "Horns",
+        "range": null,
+        "slug": "horns",
+        "traits": [
+          "shove",
+          "unarmed"
+        ]
+      }
+    ],
+    "size": "med",
+    "speed": 25,
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "humanoid",
+        "nuar"
+      ]
+    },
+    "vision": "darkvision",
+    "slug": "nuar",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "ancestry",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Nuar",
+          "description": "Prototipo mecanico de desarrollo. Rasgo base: Horns: 1d6 piercing unarmed Strike with shove or another single maneuver trait after playtest."
+        },
+        "en": {
+          "name": "Nuar",
+          "description": "Development mechanical prototype. Baseline feature: Horns: 1d6 piercing unarmed Strike with shove or another single maneuver trait after playtest."
+        }
+      }
+    }
+  }
+}

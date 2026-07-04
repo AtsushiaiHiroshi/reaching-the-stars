@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "status": "development-only-not-loaded-by-foundry",
+  "designDate": "2026-07-03",
+  "licenseGate": "All entries require final naming, rules, and Paizo licensed-material review before compendium publication.",
+  "sharedRules": {
+    "saveDC": "class DC or spell DC, whichever is higher",
+    "featLevels": [1, 5, 9, 13, 17],
+    "fourArms": "Only one pair is active. Switching the active pair uses the standard SF2e Switch Hands action.",
+    "culturalOptions": "Skill and lore benefits represent training, communities, or personal experience rather than biological destiny."
+  },
+  "progressions": [
+    {
+      "prototypeId": "sro-development-prototype",
+      "heritages": [
+        {"id":"compact-chassis","nameEs":"Chasis compacto","nameEn":"Compact Chassis","mechanics":{"ruleElement":"CreatureSize","value":"small"}},
+        {"id":"industrial-chassis","nameEs":"Chasis industrial","nameEn":"Industrial Chassis","mechanics":{"trainedSkill":"Crafting","fallbackLore":"Technology Lore"}},
+        {"id":"sealed-chassis","nameEs":"Chasis sellado","nameEn":"Sealed Chassis","mechanics":{"environmentalSaveBonus":1,"bonusType":"circumstance","atmosphereTolerance":"1 hour without breathable atmosphere"}}
+      ],
+      "feats": [
+        {"id":"integrated-tool","level":1,"nameEs":"Herramienta integrada","nameEn":"Integrated Tool","actionType":"passive","mechanic":"During daily preparations, integrate one toolkit you own. Deploying or stowing it takes one Interact action; while stowed it cannot be disarmed and occupies no hand."},
+        {"id":"emergency-repair-circuit","level":5,"nameEs":"Circuito de reparacion de emergencia","nameEn":"Emergency Repair Circuit","actionType":"action","actions":1,"frequency":"once per hour","mechanic":"Restore 2d6 + level Hit Points to yourself. Increase the healing by 1d6 at levels 9, 13, and 17. This is a repair effect."},
+        {"id":"modular-locomotion","level":9,"nameEs":"Locomocion modular","nameEn":"Modular Locomotion","actionType":"passive","mechanic":"During daily preparations choose a 25-foot climb Speed, 25-foot swim Speed, or 15-foot fly Speed until the next preparations."},
+        {"id":"redundant-core","level":13,"nameEs":"Nucleo redundante","nameEn":"Redundant Core","actionType":"reaction","frequency":"once per day","trigger":"You would be reduced to 0 Hit Points.","mechanic":"Remain at 1 Hit Point and increase your wounded value by 1."},
+        {"id":"distributed-processing","level":17,"nameEs":"Procesamiento distribuido","nameEn":"Distributed Processing","actionType":"action","actions":2,"frequency":"once per day","duration":"1 minute","mechanic":"You are quickened. The extra action can be used only to Interact, Recall Knowledge, Seek, Step, or deploy or stow an integrated tool."}
+      ]
+    },
+    {
+      "prototypeId": "gray-development-prototype",
+      "heritages": [
+        {"id":"phase-touched-gray","nameEs":"Gray tocado por la fase","nameEn":"Phase-Touched Gray","mechanics":{"saveBonus":1,"bonusType":"circumstance","against":["force","teleportation","forced movement"]}},
+        {"id":"deep-sensor-gray","nameEs":"Gray sensor profundo","nameEn":"Deep-Sensor Gray","mechanics":{"ruleElement":"Sense","selector":"thoughtsense","acuity":"vague","range":10}},
+        {"id":"mnemonic-gray","nameEs":"Gray mnemonico","nameEn":"Mnemonic Gray","mechanics":{"trainedSkill":"Occultism","fallbackLore":"Memory Lore"}}
+      ],
+      "feats": [
+        {"id":"thought-without-words","level":1,"nameEs":"Pensamiento sin palabras","nameEn":"Thought Without Words","actionType":"passive","mechanic":"Your limited telepathy can convey simple emotions and concrete images to a creature without a shared language, but not sentences, commands, or abstract ideas."},
+        {"id":"momentary-phase","level":5,"nameEs":"Fase momentanea","nameEn":"Momentary Phase","actionType":"reaction","frequency":"once per 10 minutes","trigger":"You are targeted by an attack you can perceive.","mechanic":"Gain a +2 circumstance bonus to AC against the triggering attack. If it misses, you can Step 5 feet."},
+        {"id":"predictive-focus","level":9,"nameEs":"Enfoque predictivo","nameEn":"Predictive Focus","actionType":"action","actions":1,"frequency":"once per hour","duration":"until the start of your next turn","mechanic":"Gain a +1 status bonus to AC and saving throws."},
+        {"id":"phase-passage","level":13,"nameEs":"Pasaje de fase","nameEn":"Phase Passage","actionType":"action","actions":2,"frequency":"once per hour","mechanic":"Move up to 15 feet through creatures or solid objects. You must end in an open space you can perceive; otherwise the action fails and you remain in place."},
+        {"id":"untouchable-interval","level":17,"nameEs":"Intervalo intocable","nameEn":"Untouchable Interval","actionType":"action","actions":2,"frequency":"once per day","duration":"1 minute","mechanic":"Gain resistance 10 to physical damage and move through other creatures' spaces. Solid objects remain barriers except when using Phase Passage."}
+      ]
+    },
+    {
+      "prototypeId": "reptoid-development-prototype",
+      "heritages": [
+        {"id":"clawed-reptoid","nameEs":"Reptoid de garras","nameEn":"Clawed Reptoid","mechanics":{"ruleElement":"Strike","damage":"1d6 slashing","traits":["finesse","unarmed"]}},
+        {"id":"cold-blooded-reptoid","nameEs":"Reptoid de sangre fria","nameEn":"Cold-Blooded Reptoid","mechanics":{"choice":"poison or mental","saveBonus":1,"bonusType":"circumstance"}},
+        {"id":"social-infiltrator-reptoid","nameEs":"Reptoid infiltrador social","nameEn":"Social Infiltrator Reptoid","mechanics":{"trainedSkill":"Deception","fallbackLore":"Espionage Lore"}}
+      ],
+      "feats": [
+        {"id":"borrowed-mannerisms","level":1,"nameEs":"Modales prestados","nameEn":"Borrowed Mannerisms","actionType":"passive","mechanic":"After observing a creature for 10 minutes, gain a +1 circumstance bonus to Impersonate that creature or a member of its culture for 24 hours."},
+        {"id":"defensive-molt","level":5,"nameEs":"Muda defensiva","nameEn":"Defensive Molt","actionType":"reaction","frequency":"once per 10 minutes","trigger":"You become grabbed or restrained.","mechanic":"Attempt to Escape with a +2 circumstance bonus. On a success, you can also Step."},
+        {"id":"rapid-reconfiguration","level":9,"nameEs":"Reconfiguracion rapida","nameEn":"Rapid Reconfiguration","actionType":"passive","mechanic":"You can replace a prepared identity with 10 minutes of work rather than downtime, and you can retain two prepared identities."},
+        {"id":"perfect-duplicate","level":13,"nameEs":"Duplicado perfecto","nameEn":"Perfect Duplicate","actionType":"passive","mechanic":"After studying a willing or observed humanoid for 1 hour, a prepared identity can duplicate that individual. Impersonation still uses Deception and can be detected normally."},
+        {"id":"living-gallery","level":17,"nameEs":"Galeria viviente","nameEn":"Living Gallery","actionType":"action","actions":1,"frequency":"once per day","duration":"1 minute","mechanic":"At the start of each of your turns, you can switch among any of three prepared identities as a free action. Changing shape does not itself make you hidden or unnoticed."}
+      ]
+    },
+    {
+      "prototypeId": "verthani-development-prototype",
+      "heritages": [
+        {"id":"augmented-verthani","nameEs":"Verthani aumentado","nameEn":"Augmented Verthani","mechanics":{"trainedSkill":"Crafting","augmentationBenefit":"Reduce the Bulk of one installed augmentation by 1, minimum light Bulk"}},
+        {"id":"chromatic-communicator-verthani","nameEs":"Verthani comunicador cromatico","nameEn":"Chromatic Communicator Verthani","mechanics":{"trainedSkill":"Diplomacy","fallbackLore":"Visual Communication Lore"}},
+        {"id":"terminator-warden-verthani","nameEs":"Verthani guardian del terminador","nameEn":"Terminator-Warden Verthani","mechanics":{"choice":"cold, fire, or radiation","saveBonus":1,"bonusType":"circumstance"}}
+      ],
+      "feats": [
+        {"id":"chromatic-signals","level":1,"nameEs":"Senales cromaticas","nameEn":"Chromatic Signals","actionType":"passive","mechanic":"You can communicate simple silent messages visually to creatures trained in Visual Communication Lore within 60 feet. Gain a +1 circumstance bonus when Aiding a visual social check."},
+        {"id":"still-as-starlight","level":5,"nameEs":"Inmovil como la luz estelar","nameEn":"Still as Starlight","actionType":"passive","mechanic":"If your chromatophores are sufficiently exposed and you have not moved since the end of your last turn, you can Hide without cover. Moving ends the benefit."},
+        {"id":"adaptive-implant-housing","level":9,"nameEs":"Alojamiento de implante adaptable","nameEn":"Adaptive Implant Housing","actionType":"passive","mechanic":"Choose one body system during daily preparations. It can hold one additional augmentation whose level is no greater than half your level. This does not create or discount the item."},
+        {"id":"vanishing-palette","level":13,"nameEs":"Paleta evanescente","nameEn":"Vanishing Palette","actionType":"action","actions":1,"frequency":"once per 10 minutes","duration":"until the end of your next turn","mechanic":"Become concealed. The effect ends early if you move more than 5 feet or use a hostile action."},
+        {"id":"living-spectrum","level":17,"nameEs":"Espectro viviente","nameEn":"Living Spectrum","actionType":"action","actions":2,"frequency":"once per day","duration":"1 minute","mechanic":"You are concealed and can Hide without cover. Hostile actions do not end the effect, but you must remain within 10 feet of your position at the start of each turn or the effect ends."}
+      ]
+    },
+    {
+      "prototypeId": "witchwyrd-development-prototype",
+      "heritages": [
+        {"id":"force-resonant-witchwyrd","nameEs":"Witchwyrd resonante de fuerza","nameEn":"Force-Resonant Witchwyrd","mechanics":{"resistance":"force","value":"half level, minimum 1"}},
+        {"id":"far-trader-witchwyrd","nameEs":"Witchwyrd mercader lejano","nameEn":"Far-Trader Witchwyrd","mechanics":{"trainedSkill":"Society","fallbackLore":"Trade Lore"}},
+        {"id":"dimensional-wayfarer-witchwyrd","nameEs":"Witchwyrd viajero dimensional","nameEn":"Dimensional Wayfarer Witchwyrd","mechanics":{"trainedSkill":"Survival","fallbackLore":"Dimensional Travel Lore"}}
+      ],
+      "feats": [
+        {"id":"many-handed-appraisal","level":1,"nameEs":"Tasacion de muchas manos","nameEn":"Many-Handed Appraisal","actionType":"passive","mechanic":"You can Identify an item while holding it in any hand and gain a +1 circumstance bonus to Recall Knowledge about manufactured goods and trade routes."},
+        {"id":"vector-bolt","level":5,"nameEs":"Rayo vectorial","nameEn":"Vector Bolt","actionType":"passive","mechanic":"Gain a 30-foot ranged unarmed Strike that deals 1d4 force damage and has the magical trait. It uses an active hand and can benefit from effects that improve unarmed attacks."},
+        {"id":"catch-the-vector","level":9,"nameEs":"Atrapar el vector","nameEn":"Catch the Vector","actionType":"reaction","frequency":"once per 10 minutes","trigger":"You would take force damage and have a free active hand.","mechanic":"Gain resistance to the triggering damage equal to your level. If damage remains, store a force charge until the end of your next turn."},
+        {"id":"return-the-vector","level":13,"nameEs":"Devolver el vector","nameEn":"Return the Vector","actionType":"passive","prerequisite":"Catch the Vector","mechanic":"When you have a stored force charge, your next Vector Bolt before the charge expires deals two additional weapon damage dice and pushes the target 5 feet on a hit."},
+        {"id":"force-constellation","level":17,"nameEs":"Constelacion de fuerza","nameEn":"Force Constellation","actionType":"action","actions":2,"frequency":"once per day","area":"30-foot emanation","save":"basic Reflex","mechanic":"Choose any number of creatures in the area. They take 10d6 force damage and are pushed 10 feet on a critical failure."}
+      ]
+    },
+    {
+      "prototypeId": "nuar-development-prototype",
+      "heritages": [
+        {"id":"labyrinthine-mind-nuar","nameEs":"Nuar de mente laberintica","nameEn":"Labyrinthine-Mind Nuar","mechanics":{"trainedSkill":"Survival","fallbackLore":"Maze Lore"}},
+        {"id":"heavy-horned-nuar","nameEs":"Nuar de cuernos pesados","nameEn":"Heavy-Horned Nuar","mechanics":{"strikeAlteration":"horn damage die becomes d8 and loses its maneuver trait"}},
+        {"id":"void-hardened-nuar","nameEs":"Nuar endurecido por el vacio","nameEn":"Void-Hardened Nuar","mechanics":{"saveBonus":1,"bonusType":"circumstance","against":["vacuum","radiation","extreme temperature"]}}
+      ],
+      "feats": [
+        {"id":"pattern-recall","level":1,"nameEs":"Recuerdo de patrones","nameEn":"Pattern Recall","actionType":"passive","mechanic":"After examining a structure, map, machine, or route for 1 minute, gain a +1 circumstance bonus for 24 hours to Recall Knowledge about it and to checks made to navigate it."},
+        {"id":"driving-charge","level":5,"nameEs":"Carga arrolladora","nameEn":"Driving Charge","actionType":"action","actions":2,"mechanic":"Stride twice and make a horn Strike. Apply your multiple attack penalty only after completing the activity."},
+        {"id":"maze-walker","level":9,"nameEs":"Caminante de laberintos","nameEn":"Maze Walker","actionType":"passive","mechanic":"Ignore difficult terrain caused by stairs, narrow passages, debris, and artificial structures. You cannot become lost in a location you have mapped or traversed for at least 10 minutes."},
+        {"id":"unerring-route","level":13,"nameEs":"Ruta infalible","nameEn":"Unerring Route","actionType":"reaction","frequency":"once per hour","trigger":"You or an ally within 30 feet fails a check or save against a trap, environmental hazard, or navigation effect.","mechanic":"The triggering creature rerolls the check or save and uses the better result."},
+        {"id":"perfect-trajectory","level":17,"nameEs":"Trayectoria perfecta","nameEn":"Perfect Trajectory","actionType":"free","frequency":"once per hour","trigger":"You fail an attack roll or a skill check involving movement, position, a structure, or a machine.","mechanic":"Reroll the triggering check and use the better result."}
+      ]
+    }
+  ]
+}

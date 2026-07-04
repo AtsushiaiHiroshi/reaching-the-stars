@@ -1,0 +1,67 @@
+{
+  "_id": "3QFomrpNhpcKJOPc",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Recuerdo de patrones",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>After examining a structure, map, machine, or route for 1 minute, gain a +1 circumstance bonus for 24 hours to Recall Knowledge about it and to checks made to navigate it.</p><p>After examining a structure, map, machine, or route for 1 minute, gain a +1 circumstance bonus for 24 hours to Recall Knowledge about it and to checks made to navigate it.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "nuar"
+      ]
+    },
+    "slug": "pattern-recall",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Recuerdo de patrones",
+          "description": "After examining a structure, map, machine, or route for 1 minute, gain a +1 circumstance bonus for 24 hours to Recall Knowledge about it and to checks made to navigate it."
+        },
+        "en": {
+          "name": "Pattern Recall",
+          "description": "After examining a structure, map, machine, or route for 1 minute, gain a +1 circumstance bonus for 24 hours to Recall Knowledge about it and to checks made to navigate it."
+        }
+      }
+    }
+  }
+}

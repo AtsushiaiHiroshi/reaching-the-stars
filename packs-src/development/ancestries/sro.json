@@ -1,0 +1,91 @@
+{
+  "_id": "iTcQTEe20B06FR6G",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
+  "name": "SRO",
+  "system": {
+    "additionalLanguages": {
+      "count": 0,
+      "custom": "",
+      "value": []
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      },
+      "1": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "description": {
+      "value": "<p>Prototipo mecanico de desarrollo. Rasgo base: Living Machine: remains compatible with ordinary healing and repair; construct immunities require a dedicated rules audit.</p><p>Development mechanical prototype. Baseline feature: Living Machine: remains compatible with ordinary healing and repair; construct immunities require a dedicated rules audit.</p>"
+    },
+    "flaws": {},
+    "hands": 2,
+    "hp": 8,
+    "items": {},
+    "languages": {
+      "custom": "",
+      "value": [
+        "common"
+      ]
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "reach": 5,
+    "rules": [],
+    "size": "med",
+    "speed": 25,
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "construct",
+        "sro"
+      ]
+    },
+    "vision": "darkvision",
+    "slug": "sro",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "ancestry",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "SRO",
+          "description": "Prototipo mecanico de desarrollo. Rasgo base: Living Machine: remains compatible with ordinary healing and repair; construct immunities require a dedicated rules audit."
+        },
+        "en": {
+          "name": "SRO",
+          "description": "Development mechanical prototype. Baseline feature: Living Machine: remains compatible with ordinary healing and repair; construct immunities require a dedicated rules audit."
+        }
+      }
+    }
+  }
+}

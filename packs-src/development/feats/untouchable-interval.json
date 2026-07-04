@@ -1,0 +1,71 @@
+{
+  "_id": "hL2OUVt3XcGPoGrG",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Intervalo intocable",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Gain resistance 10 to physical damage and move through other creatures' spaces. Solid objects remain barriers except when using Phase Passage. Duracion: 1 minute</p><p>Gain resistance 10 to physical damage and move through other creatures' spaces. Solid objects remain barriers except when using Phase Passage. Duration: 1 minute</p>"
+    },
+    "level": {
+      "value": 17
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "gray"
+      ]
+    },
+    "slug": "untouchable-interval",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Intervalo intocable",
+          "description": "Gain resistance 10 to physical damage and move through other creatures' spaces. Solid objects remain barriers except when using Phase Passage. Duracion: 1 minute"
+        },
+        "en": {
+          "name": "Untouchable Interval",
+          "description": "Gain resistance 10 to physical damage and move through other creatures' spaces. Solid objects remain barriers except when using Phase Passage. Duration: 1 minute"
+        }
+      }
+    }
+  }
+}

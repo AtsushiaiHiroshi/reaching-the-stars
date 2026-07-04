@@ -1,0 +1,71 @@
+{
+  "_id": "DBrWGKWnA7urkgR1",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Espectro viviente",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You are concealed and can Hide without cover. Hostile actions do not end the effect, but you must remain within 10 feet of your position at the start of each turn or the effect ends. Duracion: 1 minute</p><p>You are concealed and can Hide without cover. Hostile actions do not end the effect, but you must remain within 10 feet of your position at the start of each turn or the effect ends. Duration: 1 minute</p>"
+    },
+    "level": {
+      "value": 17
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "verthani"
+      ]
+    },
+    "slug": "living-spectrum",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Espectro viviente",
+          "description": "You are concealed and can Hide without cover. Hostile actions do not end the effect, but you must remain within 10 feet of your position at the start of each turn or the effect ends. Duracion: 1 minute"
+        },
+        "en": {
+          "name": "Living Spectrum",
+          "description": "You are concealed and can Hide without cover. Hostile actions do not end the effect, but you must remain within 10 feet of your position at the start of each turn or the effect ends. Duration: 1 minute"
+        }
+      }
+    }
+  }
+}

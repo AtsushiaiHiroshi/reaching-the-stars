@@ -1,0 +1,94 @@
+{
+  "_id": "dD0onQDdO9GLr6tJ",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
+  "name": "Reptoid",
+  "system": {
+    "additionalLanguages": {
+      "count": 0,
+      "custom": "",
+      "value": []
+    },
+    "boosts": {
+      "0": {
+        "value": "str"
+      },
+      "1": {
+        "value": "cha"
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "description": {
+      "value": "<p>Prototipo mecanico de desarrollo. Rasgo base: Prepared Identity: Change Shape into one configured humanoid identity; changing the stored identity requires downtime.</p><p>Development mechanical prototype. Baseline feature: Prepared Identity: Change Shape into one configured humanoid identity; changing the stored identity requires downtime.</p>"
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "dex"
+        ]
+      }
+    },
+    "hands": 2,
+    "hp": 8,
+    "items": {},
+    "languages": {
+      "custom": "",
+      "value": [
+        "common"
+      ]
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "reach": 5,
+    "rules": [],
+    "size": "med",
+    "speed": 25,
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "humanoid",
+        "reptoid",
+        "shapechanger"
+      ]
+    },
+    "vision": "low-light-vision",
+    "slug": "reptoid",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "ancestry",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Reptoid",
+          "description": "Prototipo mecanico de desarrollo. Rasgo base: Prepared Identity: Change Shape into one configured humanoid identity; changing the stored identity requires downtime."
+        },
+        "en": {
+          "name": "Reptoid",
+          "description": "Development mechanical prototype. Baseline feature: Prepared Identity: Change Shape into one configured humanoid identity; changing the stored identity requires downtime."
+        }
+      }
+    }
+  }
+}

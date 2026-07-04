@@ -1,0 +1,10 @@
+:root {
+  --rts-deep-space: #101729;
+  --rts-starlight: #d8edff;
+  --rts-accent: #6bc7d9;
+}
+
+.reaching-the-stars {
+  color: var(--rts-starlight);
+  background: var(--rts-deep-space);
+}
