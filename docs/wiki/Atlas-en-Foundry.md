@@ -24,6 +24,10 @@ node scripts/validate-setting-pack.mjs
 
 El compilador usa la biblioteca `classic-level` incluida en Foundry VTT y comprueba que cada pagina almacenada coincida con su fuente JSON.
 
+## Verificacion en la aplicacion
+
+Foundry VTT 14 Build 364 detecta **Reaching the Stars 0.2.0** en la lista de modulos instalados y lo marca como paquete verificado para esa version. Queda pendiente abrir el compendio dentro del mundo de pruebas para revisar visualmente sus nueve paginas.
+
 Las especies adaptadas siguen en un arbol de desarrollo distinto y no se mezclan con este atlas original.
 
 ## Referencias tecnicas
