@@ -57,13 +57,28 @@ if (!manifest) {
   if (manifest.compatibility?.minimum !== "14" || manifest.compatibility?.verified !== "14") {
     errors.push("module.json must retain Foundry VTT 14 minimum and verified compatibility");
   }
-  const expectedPack = manifest.packs?.find((pack) => pack.name === "setting-atlas");
-  if (manifest.packs?.length !== 1 || !expectedPack) errors.push("module.json must register only the original setting-atlas pack");
+  const packIndex = new Map((manifest.packs ?? []).map((pack) => [pack.name, pack]));
+  const expectedPack = packIndex.get("setting-atlas");
+  if (manifest.packs?.length !== 4 || !expectedPack) errors.push("module.json must register the atlas and three SF2e development packs");
   if (expectedPack?.type !== "JournalEntry" || expectedPack?.path !== "packs/setting-atlas") {
     errors.push("setting-atlas must be a JournalEntry pack at packs/setting-atlas");
   }
   if (expectedPack?.system) errors.push("the setting-atlas pack must remain system-neutral");
   if (expectedPack?.path) await requirePath(expectedPack.path, "module.json setting-atlas pack");
+  for (const name of ["rts-ancestries", "rts-heritages", "rts-feats"]) {
+    const pack = packIndex.get(name);
+    if (!pack) {
+      errors.push(`module.json is missing ${name}`);
+      continue;
+    }
+    if (pack.type !== "Item" || pack.system !== "sf2e" || pack.path !== `packs/${name}`) {
+      errors.push(`${name} must be an SF2e Item pack at packs/${name}`);
+    }
+    if (pack.ownership?.PLAYER !== "NONE" || pack.ownership?.TRUSTED !== "NONE") {
+      errors.push(`${name} must remain hidden from players during development`);
+    }
+    await requirePath(pack.path, `module.json ${name} pack`);
+  }
   for (const script of manifest.esmodules ?? []) await requirePath(script, "module.json esmodules");
   for (const stylesheet of manifest.styles ?? []) await requirePath(stylesheet, "module.json styles");
   for (const language of manifest.languages ?? []) await requirePath(language.path, `language ${language.lang}`);

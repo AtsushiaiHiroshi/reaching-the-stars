@@ -1,6 +1,6 @@
 # Esquema de Items Foundry
 
-Los prototipos se generan ahora como documentos Item compatibles con la forma de datos de SF2e 1.2.0, pero permanecen fuera de `module.json` y no aparecen en los compendios de los usuarios.
+Los prototipos se generan como documentos Item compatibles con la forma de datos de SF2e 1.2.0 y se compilan en tres compendios de desarrollo. Los ve el GM y los asistentes; permanecen ocultos para jugadores mientras no superen las revisiones mecanica, editorial y legal.
 
 ## Documentos generados
 
@@ -32,3 +32,14 @@ node scripts/validate-development-items.mjs
 ```
 
 La generacion usa IDs deterministas y UUID cruzados entre herencias y ascendencias. La licencia interna se etiqueta como `Custom` mientras no exista una declaracion final de material licenciado y reservado.
+
+## Compendios de desarrollo
+
+- `Reaching the Stars: Ancestries (Development)` — 6 Items.
+- `Reaching the Stars: Heritages (Development)` — 18 Items.
+- `Reaching the Stars: Ancestry Feats (Development)` — 30 Items.
+
+```powershell
+node scripts/build-development-packs.mjs
+node scripts/validate-development-packs.mjs
+```

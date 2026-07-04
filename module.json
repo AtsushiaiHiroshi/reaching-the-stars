@@ -2,7 +2,7 @@
   "id": "reaching-the-stars",
   "title": "Reaching the Stars",
   "description": "Reaching the Stars (Alcanzando las Estrellas), una ambientacion de ciencia ficcion adaptable con integracion inicial para Starfinder Segunda Edicion.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "compatibility": {
     "minimum": "14",
     "verified": "14",
@@ -43,6 +43,56 @@
         "TRUSTED": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "rts-ancestries",
+      "label": "Reaching the Stars: Ancestries (Development)",
+      "path": "packs/rts-ancestries",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rts-heritages",
+      "label": "Reaching the Stars: Heritages (Development)",
+      "path": "packs/rts-heritages",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rts-feats",
+      "label": "Reaching the Stars: Ancestry Feats (Development)",
+      "path": "packs/rts-feats",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Reaching the Stars",
+      "sorting": "a",
+      "packs": ["setting-atlas"],
+      "folders": [
+        {
+          "name": "SF2e Development",
+          "sorting": "a",
+          "packs": ["rts-ancestries", "rts-heritages", "rts-feats"]
+        }
+      ]
     }
   ],
   "readme": "README.md",

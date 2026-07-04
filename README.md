@@ -11,6 +11,7 @@
 - `docs/wiki/`: fuente versionada de la Wiki de GitHub.
 - `packs-src/development/`: Items SF2e generados que aun no se distribuyen como compendio.
 - `packs/setting-atlas/`: compendio neutral de diarios con el atlas original.
+- `packs/rts-*`: compendios SF2e de desarrollo visibles solo para el GM y asistentes.
 - futuros `packs/setting-*`: diarios, tablas y ambientacion neutrales.
 - futuros `packs/sf2e-*`: ascendencias, dotes y equipo exclusivos del adaptador SF2e.
 
@@ -31,3 +32,5 @@ npm run check
 Si npm no esta disponible, puede ejecutarse el mismo flujo con `node scripts/check.mjs`. La orden reconstruye los Items de desarrollo, valida su esquema y audita que el repositorio no contenga fuentes privadas ni registre prematuramente esos Items como compendios distribuibles.
 
 El compendio del atlas se reconstruye con `node scripts/build-setting-pack.mjs` y se comprueba con `node scripts/validate-setting-pack.mjs`. Estas ordenes usan `classic-level` incluido en la instalacion local de Foundry VTT.
+
+Los tres compendios mecanicos se reconstruyen con `node scripts/build-development-packs.mjs` y se comprueban con `node scripts/validate-development-packs.mjs`. Siguen etiquetados como desarrollo y no deben considerarse contenido listo para publicacion.

@@ -18,6 +18,8 @@ node scripts/build-setting-journals.mjs
 node scripts/validate-setting-journals.mjs
 node scripts/build-setting-pack.mjs
 node scripts/validate-setting-pack.mjs
+node scripts/build-development-packs.mjs
+node scripts/validate-development-packs.mjs
 ```
 
 Do not add the development Item folders to `module.json` until the licensing gate and Foundry validation checklist are complete.
