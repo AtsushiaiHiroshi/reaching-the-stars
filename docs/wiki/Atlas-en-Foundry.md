@@ -13,9 +13,16 @@ La Orla de Ceniza se genera como un `JournalEntry` neutral compatible con el esq
 
 El resultado contiene nueve paginas y diez IDs deterministas contando la entrada principal. Los metadatos `systemId` y `systemVersion` son nulos para permitir su uso con SF2e y con otros sistemas.
 
-## Estado de publicacion
+## Compendio distribuible
 
-La fuente JSON permanece en `packs-src/setting/atlas/`. Todavia no se declara como compendio en `module.json`: primero debe compilarse a LevelDB y abrirse dentro de Foundry v14 para verificar navegacion, permisos y presentacion.
+La fuente JSON permanece en `packs-src/setting/atlas/` y se compila como LevelDB en `packs/setting-atlas/`. `module.json` lo declara como el compendio neutral **Reaching the Stars: Atlas**, visible para jugadores y editable por asistentes.
+
+```powershell
+node scripts/build-setting-pack.mjs
+node scripts/validate-setting-pack.mjs
+```
+
+El compilador usa la biblioteca `classic-level` incluida en Foundry VTT y comprueba que cada pagina almacenada coincida con su fuente JSON.
 
 Las especies adaptadas siguen en un arbol de desarrollo distinto y no se mezclan con este atlas original.
 

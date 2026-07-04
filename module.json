@@ -2,7 +2,7 @@
   "id": "reaching-the-stars",
   "title": "Reaching the Stars",
   "description": "Reaching the Stars (Alcanzando las Estrellas), una ambientacion de ciencia ficcion adaptable con integracion inicial para Starfinder Segunda Edicion.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "compatibility": {
     "minimum": "14",
     "verified": "14",
@@ -30,6 +30,19 @@
       "lang": "en",
       "name": "English",
       "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "setting-atlas",
+      "label": "Reaching the Stars: Atlas",
+      "path": "packs/setting-atlas",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "readme": "README.md",

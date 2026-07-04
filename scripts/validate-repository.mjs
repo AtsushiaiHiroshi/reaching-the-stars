@@ -57,7 +57,13 @@ if (!manifest) {
   if (manifest.compatibility?.minimum !== "14" || manifest.compatibility?.verified !== "14") {
     errors.push("module.json must retain Foundry VTT 14 minimum and verified compatibility");
   }
-  if (manifest.packs?.length) errors.push("development content must not be registered as distributable packs yet");
+  const expectedPack = manifest.packs?.find((pack) => pack.name === "setting-atlas");
+  if (manifest.packs?.length !== 1 || !expectedPack) errors.push("module.json must register only the original setting-atlas pack");
+  if (expectedPack?.type !== "JournalEntry" || expectedPack?.path !== "packs/setting-atlas") {
+    errors.push("setting-atlas must be a JournalEntry pack at packs/setting-atlas");
+  }
+  if (expectedPack?.system) errors.push("the setting-atlas pack must remain system-neutral");
+  if (expectedPack?.path) await requirePath(expectedPack.path, "module.json setting-atlas pack");
   for (const script of manifest.esmodules ?? []) await requirePath(script, "module.json esmodules");
   for (const stylesheet of manifest.styles ?? []) await requirePath(stylesheet, "module.json styles");
   for (const language of manifest.languages ?? []) await requirePath(language.path, `language ${language.lang}`);

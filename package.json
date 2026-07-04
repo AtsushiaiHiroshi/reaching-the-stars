@@ -1,17 +1,20 @@
 {
   "name": "reaching-the-stars",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Herramientas de desarrollo y validacion para Reaching the Stars (Alcanzando las Estrellas).",
   "type": "module",
   "scripts": {
     "build:development": "node scripts/build-development-items.mjs",
     "build:setting": "node scripts/build-setting-journals.mjs",
+    "build:setting-pack": "node scripts/build-setting-pack.mjs",
     "validate:development": "node scripts/validate-development-items.mjs",
     "validate:setting": "node scripts/validate-setting.mjs",
     "validate:setting-journals": "node scripts/validate-setting-journals.mjs",
+    "validate:setting-pack": "node scripts/validate-setting-pack.mjs",
     "validate:repository": "node scripts/validate-repository.mjs",
-    "check": "node scripts/check.mjs"
+    "check": "node scripts/check.mjs",
+    "check:setting-pack": "node scripts/build-setting-pack.mjs && node scripts/validate-setting-pack.mjs"
   },
   "engines": {
     "node": ">=20.11"
