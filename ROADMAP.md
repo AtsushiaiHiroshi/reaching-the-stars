@@ -1,10 +1,22 @@
 # Roadmap — Reaching the Stars
 
+**Roadmap oficial visual:** [GitHub Project 1](https://github.com/users/AtsushiaiHiroshi/projects/1)  
+**Respaldo textual versionado:** este archivo `ROADMAP.md`  
 **Estado:** Reestructuración inicial  
 **Metodología:** Macro → micro  
 **Última actualización:** 2026-07-14
 
 Este roadmap organiza el desarrollo de Reaching the Stars como IP original, TTRPG adaptable y posible sistema propio futuro.
+
+## Regla de sincronización
+
+El **GitHub Project 1** es el roadmap operativo principal. Este archivo debe reflejar el mismo orden estratégico para conservar historial, contexto y trazabilidad dentro del repositorio.
+
+Cada avance importante debe generar o actualizar:
+
+- una entrada en la documentación/wiki;
+- una tarea o issue vinculable al Project 1;
+- una actualización del estado correspondiente en este roadmap textual cuando cambie una fase, prioridad o entrega.
 
 ## Principio rector
 
@@ -25,6 +37,7 @@ En Reaching the Stars, los planetas se diseñan como ecosistemas completos antes
 - [ ] Mantener Convenciones de nomenclatura.
 - [x] Crear regla de Registro Wiki y Registro Roadmap.
 - [x] Crear índice corregido de plantillas maestras.
+- [x] Definir GitHub Project 1 como roadmap oficial operativo.
 
 ---
 
@@ -221,4 +234,5 @@ Cada bloque nuevo debe incluir:
 - Ubicación sugerida.
 - Documento maestro afectado.
 - Fase del roadmap afectada.
+- Tarea/issue sugerida para GitHub Project 1.
 - Estado sugerido.
