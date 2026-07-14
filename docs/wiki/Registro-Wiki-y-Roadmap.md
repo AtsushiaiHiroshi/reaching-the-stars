@@ -4,12 +4,22 @@
 
 Este documento define cómo registrar avances importantes de Reaching the Stars para no perder contexto entre conversaciones, documentos, wiki y GitHub.
 
+## Roadmap oficial
+
+El **GitHub Project 1** es el roadmap operativo oficial de Reaching the Stars:
+
+- https://github.com/users/AtsushiaiHiroshi/projects/1
+
+El archivo `ROADMAP.md` funciona como respaldo textual versionado dentro del repositorio. Debe mantenerse sincronizado con el Project 1 cuando cambien fases, prioridades o entregas importantes.
+
 ## Regla general
 
 Cada bloque importante debe actualizar dos niveles:
 
 1. **Wiki / Documentación Maestra**: contenido completo, plantillas, canon, metodología y referencias.
-2. **Roadmap de GitHub**: estado de avance, fase afectada, tareas pendientes y prioridad.
+2. **GitHub Project 1 / Roadmap**: estado de avance, fase afectada, tareas pendientes y prioridad.
+
+Cuando el conector no permita editar directamente el Project 1, se debe crear o actualizar un issue preparado para vincularse al Project 1.
 
 ## Registro Wiki
 
@@ -47,7 +57,10 @@ Cada bloque debe incluir:
 **Fase afectada:**  
 Pendiente.
 
-**Tarea GitHub sugerida:**  
+**Tarea GitHub Project 1 sugerida:**  
+Pendiente.
+
+**Issue sugerido:**  
 Pendiente.
 
 **Tipo de tarea:**  
