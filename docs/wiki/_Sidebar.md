@@ -31,3 +31,4 @@
 - [[Plantilla-Mapa-Planetario]]
 - [[Plantilla-Bioma-Planetario]]
 - [[Plantilla-Recurso-Natural]]
+- [[Plantilla-Amenaza-Planetaria]]
