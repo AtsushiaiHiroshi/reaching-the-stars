@@ -25,3 +25,4 @@
 - [[Atlas-sectorial]]
 - [[Atlas-en-Foundry]]
 - [[Plantilla-Region-Planetaria]]
+- [[Plantilla-Mapa-Planetario]]
