@@ -4,7 +4,7 @@
 **Respaldo textual versionado:** este archivo `ROADMAP.md`  
 **Estado:** Reestructuración inicial  
 **Metodología:** Macro → micro  
-**Última actualización:** 2026-07-14
+**Última actualización:** 2026-07-15
 
 Este roadmap organiza el desarrollo de Reaching the Stars como IP original, TTRPG adaptable y posible sistema propio futuro.
 
@@ -66,7 +66,7 @@ En Reaching the Stars, los planetas se diseñan como ecosistemas completos antes
 - [x] Plantilla oficial de Cuadrante Galáctico.
 - [x] Plantilla oficial de Sector Galáctico.
 - [x] Plantilla oficial de Sistema Estelar.
-- [ ] Corregir Plantilla de Estrella.
+- [x] Corregir Plantilla de Estrella.
 - [ ] Corregir Plantilla de Ruta Espacial.
 - [ ] Corregir Plantilla de Punto de Interés.
 - [ ] Definir primera galaxia.
