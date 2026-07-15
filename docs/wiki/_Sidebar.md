@@ -1,0 +1,14 @@
+## Reaching the Stars
+
+- [[Inicio|Home]]
+- [[Cosmologia]]
+- [[Hoja-de-ruta]]
+- [[Politica-de-fuentes-y-licencias]]
+- [[Flujo-de-conversion-de-especies]]
+- [[Especies-SF1e-auditadas]]
+- [[Prototipos-mecanicos]]
+- [[Herencias-y-dotes-iniciales]]
+- [[Esquema-Items-Foundry]]
+- [[Validacion-automatica]]
+- [[Atlas-sectorial]]
+- [[Atlas-en-Foundry]]
