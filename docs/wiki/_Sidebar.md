@@ -26,6 +26,7 @@
 - [[Atlas-en-Foundry]]
 - [[Plantilla-Planeta]]
 - [[Plantilla-Satelite-Luna]]
+- [[Plantilla-Anillo-Planetario]]
 - [[Plantilla-Region-Planetaria]]
 - [[Plantilla-Mapa-Planetario]]
 - [[Plantilla-Bioma-Planetario]]
