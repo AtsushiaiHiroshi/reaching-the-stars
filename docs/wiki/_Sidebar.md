@@ -24,6 +24,7 @@
 
 - [[Atlas-sectorial]]
 - [[Atlas-en-Foundry]]
+- [[Plantilla-Estrella]]
 - [[Plantilla-Planeta]]
 - [[Plantilla-Satelite-Luna]]
 - [[Plantilla-Anillo-Planetario]]
