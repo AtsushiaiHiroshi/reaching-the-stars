@@ -26,3 +26,4 @@
 - [[Atlas-en-Foundry]]
 - [[Plantilla-Region-Planetaria]]
 - [[Plantilla-Mapa-Planetario]]
+- [[Plantilla-Recurso-Natural]]
