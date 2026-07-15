@@ -67,7 +67,7 @@ En Reaching the Stars, los planetas se diseñan como ecosistemas completos antes
 - [x] Plantilla oficial de Sector Galáctico.
 - [x] Plantilla oficial de Sistema Estelar.
 - [x] Corregir Plantilla de Estrella.
-- [ ] Corregir Plantilla de Ruta Espacial.
+- [x] Corregir Plantilla de Ruta Espacial.
 - [ ] Corregir Plantilla de Punto de Interés.
 - [ ] Definir primera galaxia.
 - [ ] Definir primer cuadrante.
