@@ -27,4 +27,5 @@
 - [[Plantilla-Planeta]]
 - [[Plantilla-Region-Planetaria]]
 - [[Plantilla-Mapa-Planetario]]
+- [[Plantilla-Bioma-Planetario]]
 - [[Plantilla-Recurso-Natural]]
