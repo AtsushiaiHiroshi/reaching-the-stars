@@ -24,6 +24,7 @@
 
 - [[Atlas-sectorial]]
 - [[Atlas-en-Foundry]]
+- [[Plantilla-Planeta]]
 - [[Plantilla-Region-Planetaria]]
 - [[Plantilla-Mapa-Planetario]]
 - [[Plantilla-Recurso-Natural]]
