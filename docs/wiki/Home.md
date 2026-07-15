@@ -1,51 +1,38 @@
-# Reaching the Stars — Wiki
+# Reaching the Stars / Alcanzando las Estrellas
 
-Bienvenido a la documentación maestra de **Reaching the Stars**.
+*Reaching the Stars*, o *Alcanzando las Estrellas* en español, es una ambientación de ciencia ficción concebida como libro completo, módulo de Foundry VTT y futuro sistema de juego independiente.
 
-Esta wiki organiza el proyecto como una IP original, un TTRPG adaptable y, potencialmente, un sistema de juego propio futuro.
+La primera implementación mecánica utiliza Starfinder Segunda Edición. El núcleo narrativo se mantiene separado de cada adaptador para permitir futuras conversiones y, si el proyecto lo requiere, un sistema propio.
 
-## Principio rector
+## Roadmap oficial
 
-Reaching the Stars se desarrolla de **macro a micro**:
+- [GitHub Project 1](https://github.com/users/AtsushiaiHiroshi/projects/1) — roadmap operativo oficial.
+- [ROADMAP.md](../../ROADMAP.md) — respaldo textual versionado.
 
-```text
-Cosmología
-→ Multiverso
-→ Universo
-→ Dimensiones / Planos
-→ Galaxias
-→ Cuadrantes
-→ Sectores
-→ Sistemas estelares
-→ Planetas
-→ Satélites
-→ Biomas
-→ Amenazas
-→ Flora / Fauna / Megafauna
-→ Razas
-→ Especies
-→ Variantes
-→ Culturas
-→ Tecnología
-→ Navegación
-→ Naves
-→ Roles de nave
-→ Clases / Profesiones
-→ Facciones
-→ Aventuras / Campañas
-→ Productos
-```
+## Principios
 
-## Documentos principales
+- Desarrollo macro → micro.
+- Universo sin deidades objetivamente existentes; religiones y cultos se tratan como realidades culturales.
+- Planetas diseñados como ecosistemas completos antes que como escenarios de aventura.
+- Razas, especies, variantes, culturas y conflictos emergen de la historia natural del mundo.
+- Separación estricta entre contenido oficial, adaptado, inspirado, temporal y original.
+- Ninguna propiedad intelectual externa se publica sin revisión y transformación adecuada.
 
-- [Roadmap](../../ROADMAP.md)
+## Navegación principal
+
+- [[Cosmologia]]
+- [[Hoja-de-ruta]]
+- [[Politica-de-fuentes-y-licencias]]
+- [[Flujo-de-conversion-de-especies]]
+- [[Especies-SF1e-auditadas]]
+- [[Prototipos-mecanicos]]
+- [[Herencias-y-dotes-iniciales]]
+- [[Esquema-Items-Foundry]]
+- [[Validacion-automatica]]
+- [[Atlas-sectorial]]
+- [[Atlas-en-Foundry]]
+
+## Documentos de reestructuración macro → micro
+
 - [Índice de Plantillas Maestras](./Indice-Plantillas-Maestras.md)
 - [Registro Wiki y Roadmap](./Registro-Wiki-y-Roadmap.md)
-
-## Filosofía de mundos
-
-En Reaching the Stars, los planetas se diseñan como ecosistemas completos antes que como escenarios de aventura. Las especies, culturas, civilizaciones y conflictos emergen de la historia natural del mundo, no al revés.
-
-## Estado actual
-
-El proyecto se encuentra en fase de reestructuración macro → micro. Las plantillas de cosmología, atlas, planetas, vida, razas, navegación, naves y roles de nave están siendo corregidas para respetar esta metodología.
