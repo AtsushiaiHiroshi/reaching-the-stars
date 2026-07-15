@@ -88,7 +88,7 @@ En Reaching the Stars, los planetas se diseñan como ecosistemas completos antes
 - [x] Plantilla oficial de Anillo Planetario.
 - [x] Crear Plantilla de Región Planetaria.
 - [x] Crear Plantilla de Mapa Planetario.
-- [ ] Crear Plantilla de Recurso Natural.
+- [x] Crear Plantilla de Recurso Natural.
 - [ ] Diseñar primer planeta completo bajo método ecosistémico.
 
 ---
