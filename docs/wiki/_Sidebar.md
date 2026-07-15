@@ -25,6 +25,7 @@
 - [[Atlas-sectorial]]
 - [[Atlas-en-Foundry]]
 - [[Plantilla-Planeta]]
+- [[Plantilla-Satelite-Luna]]
 - [[Plantilla-Region-Planetaria]]
 - [[Plantilla-Mapa-Planetario]]
 - [[Plantilla-Bioma-Planetario]]
