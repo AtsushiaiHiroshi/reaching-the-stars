@@ -4,6 +4,19 @@
 - [[Cosmologia]]
 - [[Hoja-de-ruta]]
 - [[Politica-de-fuentes-y-licencias]]
+- [Roadmap](../../ROADMAP.md)
+- [[Indice-Plantillas-Maestras]]
+- [[Registro-Wiki-y-Roadmap]]
+
+### Fundacion
+
+- [[Cosmologia]]
+- [[Hoja-de-ruta]]
+- [[Politica-de-fuentes-y-licencias]]
+- [[Validacion-automatica]]
+
+### Especies y mecanicas
+
 - [[Flujo-de-conversion-de-especies]]
 - [[Especies-SF1e-auditadas]]
 - [[Prototipos-mecanicos]]
@@ -12,3 +25,18 @@
 - [[Validacion-automatica]]
 - [[Atlas-sectorial]]
 - [[Atlas-en-Foundry]]
+
+### Atlas
+
+- [[Atlas-sectorial]]
+- [[Atlas-en-Foundry]]
+- [[Plantilla-Estrella]]
+- [[Plantilla-Ruta-Espacial]]
+- [[Plantilla-Planeta]]
+- [[Plantilla-Satelite-Luna]]
+- [[Plantilla-Anillo-Planetario]]
+- [[Plantilla-Region-Planetaria]]
+- [[Plantilla-Mapa-Planetario]]
+- [[Plantilla-Bioma-Planetario]]
+- [[Plantilla-Recurso-Natural]]
+- [[Plantilla-Amenaza-Planetaria]]

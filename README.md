@@ -34,3 +34,17 @@ Si npm no esta disponible, puede ejecutarse el mismo flujo con `node scripts/che
 El compendio del atlas se reconstruye con `node scripts/build-setting-pack.mjs` y se comprueba con `node scripts/validate-setting-pack.mjs`. Estas ordenes usan `classic-level` incluido en la instalacion local de Foundry VTT.
 
 Los tres compendios mecanicos se reconstruyen con `node scripts/build-development-packs.mjs` y se comprueban con `node scripts/validate-development-packs.mjs`. Siguen etiquetados como desarrollo y no deben considerarse contenido listo para publicacion.
+A space adventuring book and VTT module.
+
+## Documentación del proyecto
+
+- [Roadmap](./ROADMAP.md)
+- [Wiki interna](./docs/wiki/Home.md)
+- [Índice de Plantillas Maestras](./docs/wiki/Indice-Plantillas-Maestras.md)
+- [Registro Wiki y Roadmap](./docs/wiki/Registro-Wiki-y-Roadmap.md)
+
+## Filosofía de diseño
+
+Reaching the Stars se desarrolla de macro a micro: primero la cosmología, luego universos, dimensiones, galaxias, cuadrantes, sectores, sistemas, planetas, biomas, vida, razas, culturas, navegación, naves, reglas y finalmente historias.
+
+Los planetas se diseñan como ecosistemas completos antes que como escenarios de aventura.
