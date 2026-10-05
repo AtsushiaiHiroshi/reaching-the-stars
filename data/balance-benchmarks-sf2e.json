@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "source": "Installed sf2e 1.2.0 compendiums",
+  "purpose": "Mechanical comparison only; descriptions and artwork are not reproduced.",
+  "benchmarks": [
+    {"name":"Android","hp":8,"size":"medium","speed":25,"hands":2,"vision":"low-light","boosts":["Dexterity","Intelligence","free"],"flaw":"Charisma","baselineFeatures":["constructed resilience"]},
+    {"name":"Astrazoan","hp":8,"size":"medium","speed":25,"hands":2,"vision":"low-light","boosts":["Dexterity","Charisma","free"],"flaw":"Constitution","baselineFeatures":["unrestricted Change Shape"]},
+    {"name":"Barathu","hp":8,"size":"medium","speed":5,"flySpeed":20,"hands":2,"vision":"normal","boosts":["Constitution","Wisdom","free"],"flaw":"Dexterity","baselineFeatures":["limited telepathy","genetic adaptation"]},
+    {"name":"Contemplative","hp":6,"size":"medium","speed":5,"flySpeed":20,"hands":2,"vision":"low-light","boosts":["Charisma","Intelligence","free"],"flaw":"Strength","baselineFeatures":["limited telepathy","thoughtsense","atrophied limbs"]},
+    {"name":"Izalguun","hp":8,"size":"large","speed":20,"hands":4,"vision":"darkvision","boosts":["Strength","Intelligence","free"],"flaw":"Dexterity","baselineFeatures":["four arms","posture"]},
+    {"name":"Kasatha","hp":8,"size":"medium","speed":25,"hands":4,"vision":"normal","boosts":["Strength","Wisdom","free"],"flaw":"Charisma","baselineFeatures":["four arms"]},
+    {"name":"Urog","hp":6,"size":"large","speed":20,"hands":2,"vision":"darkvision","boosts":["Constitution","Intelligence or Wisdom","free"],"flaw":"Charisma","baselineFeatures":["limited telepathy","approach choice"]},
+    {"name":"Vesk","hp":10,"size":"medium","speed":20,"hands":2,"vision":"low-light","boosts":["Constitution","Strength","free"],"flaw":"Wisdom","baselineFeatures":["choice of d6 natural attack"]}
+  ],
+  "implementationPatterns": {
+    "variableSize": {"placement":"heritage","ruleElement":{"key":"CreatureSize","value":"small|large"}},
+    "naturalAttack": {"placement":"ancestry, heritage, or feat","typicalDamage":"1d6","ruleElement":"Strike"},
+    "additionalMovement": {"placement":"heritage or ancestry tradeoff","ruleElement":"BaseSpeed"},
+    "additionalSense": {"placement":"ancestry or heritage","ruleElement":"Sense"},
+    "fourArms": {"placement":"baseline feature","restriction":"only one pair of active hands; switching requires an action"},
+    "limitedTelepathy": {"placement":"baseline feature","restriction":"30 feet, shared language, outbound communication only"}
+  }
+}

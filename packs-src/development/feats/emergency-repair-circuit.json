@@ -1,0 +1,71 @@
+{
+  "_id": "V4GjbmMjOxqFq9mF",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Circuito de reparacion de emergencia",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Restore 2d6 + level Hit Points to yourself. Increase the healing by 1d6 at levels 9, 13, and 17. This is a repair effect.</p><p>Restore 2d6 + level Hit Points to yourself. Increase the healing by 1d6 at levels 9, 13, and 17. This is a repair effect.</p>"
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "sro"
+      ]
+    },
+    "slug": "emergency-repair-circuit",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Circuito de reparacion de emergencia",
+          "description": "Restore 2d6 + level Hit Points to yourself. Increase the healing by 1d6 at levels 9, 13, and 17. This is a repair effect."
+        },
+        "en": {
+          "name": "Emergency Repair Circuit",
+          "description": "Restore 2d6 + level Hit Points to yourself. Increase the healing by 1d6 at levels 9, 13, and 17. This is a repair effect."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "_id": "JWlmTyV6mAVUBN8L",
+  "img": "systems/sf2e/icons/default-icons/heritage.svg",
+  "name": "Verthani comunicador cromatico",
+  "system": {
+    "ancestry": {
+      "name": "Verthani",
+      "slug": "verthani",
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.tVcIxqtKbZ9yaLif"
+    },
+    "description": {
+      "value": "<p>Herencia de desarrollo. {\"trainedSkill\":\"Diplomacy\",\"fallbackLore\":\"Visual Communication Lore\"}</p><p>Development heritage. {\"trainedSkill\":\"Diplomacy\",\"fallbackLore\":\"Visual Communication Lore\"}</p>"
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.diplomacy.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": []
+    },
+    "slug": "chromatic-communicator-verthani",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Verthani comunicador cromatico",
+          "description": "Herencia de desarrollo. {\"trainedSkill\":\"Diplomacy\",\"fallbackLore\":\"Visual Communication Lore\"}"
+        },
+        "en": {
+          "name": "Chromatic Communicator Verthani",
+          "description": "Development heritage. {\"trainedSkill\":\"Diplomacy\",\"fallbackLore\":\"Visual Communication Lore\"}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "_id": "SFyFrCqWRqLdNYh9",
+  "img": "systems/sf2e/icons/default-icons/heritage.svg",
+  "name": "Witchwyrd viajero dimensional",
+  "system": {
+    "ancestry": {
+      "name": "Witchwyrd",
+      "slug": "witchwyrd",
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.oLUBlTtvVSE8AqAp"
+    },
+    "description": {
+      "value": "<p>Herencia de desarrollo. {\"trainedSkill\":\"Survival\",\"fallbackLore\":\"Dimensional Travel Lore\"}</p><p>Development heritage. {\"trainedSkill\":\"Survival\",\"fallbackLore\":\"Dimensional Travel Lore\"}</p>"
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.survival.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": []
+    },
+    "slug": "dimensional-wayfarer-witchwyrd",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Witchwyrd viajero dimensional",
+          "description": "Herencia de desarrollo. {\"trainedSkill\":\"Survival\",\"fallbackLore\":\"Dimensional Travel Lore\"}"
+        },
+        "en": {
+          "name": "Dimensional Wayfarer Witchwyrd",
+          "description": "Development heritage. {\"trainedSkill\":\"Survival\",\"fallbackLore\":\"Dimensional Travel Lore\"}"
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,9 @@
 ## Reaching the Stars
 
 - [[Inicio|Home]]
+- [[Cosmologia]]
+- [[Hoja-de-ruta]]
+- [[Politica-de-fuentes-y-licencias]]
 - [Roadmap](../../ROADMAP.md)
 - [[Indice-Plantillas-Maestras]]
 - [[Registro-Wiki-y-Roadmap]]
@@ -19,6 +22,9 @@
 - [[Prototipos-mecanicos]]
 - [[Herencias-y-dotes-iniciales]]
 - [[Esquema-Items-Foundry]]
+- [[Validacion-automatica]]
+- [[Atlas-sectorial]]
+- [[Atlas-en-Foundry]]
 
 ### Atlas
 

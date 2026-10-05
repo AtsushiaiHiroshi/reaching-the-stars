@@ -1,0 +1,66 @@
+{
+  "_id": "dqFAYJsUA96CafIR",
+  "img": "systems/sf2e/icons/default-icons/heritage.svg",
+  "name": "Nuar endurecido por el vacio",
+  "system": {
+    "ancestry": {
+      "name": "Nuar",
+      "slug": "nuar",
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.FpGsdxRMbSuMzheS"
+    },
+    "description": {
+      "value": "<p>Herencia de desarrollo. {\"saveBonus\":1,\"bonusType\":\"circumstance\",\"against\":[\"vacuum\",\"radiation\",\"extreme temperature\"]}</p><p>Development heritage. {\"saveBonus\":1,\"bonusType\":\"circumstance\",\"against\":[\"vacuum\",\"radiation\",\"extreme temperature\"]}</p>"
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:radiation"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": []
+    },
+    "slug": "void-hardened-nuar",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Nuar endurecido por el vacio",
+          "description": "Herencia de desarrollo. {\"saveBonus\":1,\"bonusType\":\"circumstance\",\"against\":[\"vacuum\",\"radiation\",\"extreme temperature\"]}"
+        },
+        "en": {
+          "name": "Void-Hardened Nuar",
+          "description": "Development heritage. {\"saveBonus\":1,\"bonusType\":\"circumstance\",\"against\":[\"vacuum\",\"radiation\",\"extreme temperature\"]}"
+        }
+      }
+    }
+  }
+}

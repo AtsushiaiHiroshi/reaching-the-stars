@@ -1,0 +1,71 @@
+{
+  "_id": "dLKeBdiZ0LfLFThY",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Galeria viviente",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>At the start of each of your turns, you can switch among any of three prepared identities as a free action. Changing shape does not itself make you hidden or unnoticed. Duracion: 1 minute</p><p>At the start of each of your turns, you can switch among any of three prepared identities as a free action. Changing shape does not itself make you hidden or unnoticed. Duration: 1 minute</p>"
+    },
+    "level": {
+      "value": 17
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "reptoid"
+      ]
+    },
+    "slug": "living-gallery",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Galeria viviente",
+          "description": "At the start of each of your turns, you can switch among any of three prepared identities as a free action. Changing shape does not itself make you hidden or unnoticed. Duracion: 1 minute"
+        },
+        "en": {
+          "name": "Living Gallery",
+          "description": "At the start of each of your turns, you can switch among any of three prepared identities as a free action. Changing shape does not itself make you hidden or unnoticed. Duration: 1 minute"
+        }
+      }
+    }
+  }
+}

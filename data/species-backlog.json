@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "rules": {
+    "mechanicalTarget": "sf2e",
+    "sourceOrder": ["sf2e-official", "sf1e-official", "pf2e-compatible", "open-srd", "original-design"],
+    "closedSourcesAreResearchOnly": true,
+    "directNumericConversion": false
+  },
+  "dndSpaceResearch": [
+    {"name":"Astral Elf","source":"Spelljammer: Adventures in Space","licenseStatus":"closed-research-only","designRoute":"original stellar-adapted lineage"},
+    {"name":"Autognome","source":"Spelljammer: Adventures in Space","licenseStatus":"closed-research-only","designRoute":"original small synthetic species"},
+    {"name":"Giff","source":"Spelljammer: Adventures in Space","licenseStatus":"closed-research-only","designRoute":"original semiaquatic megafauna ancestry"},
+    {"name":"Hadozee","source":"Spelljammer: Adventures in Space","licenseStatus":"closed-research-only","designRoute":"original arboreal glider ancestry"},
+    {"name":"Plasmoid","source":"Spelljammer: Adventures in Space","licenseStatus":"closed-research-only","designRoute":"original amorphous ancestry"},
+    {"name":"Thri-kreen","source":"Spelljammer: Adventures in Space","licenseStatus":"closed-research-only","designRoute":"original multi-limbed insectoid ancestry"},
+    {"name":"Githyanki/Githzerai","source":"D&D product identity outside SRD","licenseStatus":"closed-research-only","designRoute":"original extradimensional diaspora"},
+    {"name":"Neogi","source":"D&D product identity outside SRD","licenseStatus":"closed-research-only","designRoute":"original voidfaring arthropod culture"},
+    {"name":"Mercane","source":"D&D product identity outside SRD","licenseStatus":"closed-research-only","designRoute":"original interstellar merchant lineage"}
+  ],
+  "openSrdSpecies": [
+    {"name":"Dragonborn","source":"SRD 5.2.1","licenseStatus":"CC-BY-4.0"},
+    {"name":"Dwarf","source":"SRD 5.2.1","licenseStatus":"CC-BY-4.0"},
+    {"name":"Elf","source":"SRD 5.2.1","licenseStatus":"CC-BY-4.0"},
+    {"name":"Gnome","source":"SRD 5.2.1","licenseStatus":"CC-BY-4.0"},
+    {"name":"Goliath","source":"SRD 5.2.1","licenseStatus":"CC-BY-4.0"},
+    {"name":"Halfling","source":"SRD 5.2.1","licenseStatus":"CC-BY-4.0"},
+    {"name":"Human","source":"SRD 5.2.1","licenseStatus":"CC-BY-4.0"},
+    {"name":"Orc","source":"SRD 5.2.1","licenseStatus":"CC-BY-4.0"},
+    {"name":"Tiefling","source":"SRD 5.2.1","licenseStatus":"CC-BY-4.0"}
+  ],
+  "anthropomorphicCoverageFamilies": [
+    {"family":"avian","examples":"raptor, corvid, owl, waterfowl, songbird","priority":"high"},
+    {"family":"feline","examples":"small cat, lion, tiger, panther, lynx","priority":"high"},
+    {"family":"canid","examples":"wolf, fox, jackal, dog","priority":"high"},
+    {"family":"rodent","examples":"rat, mouse, squirrel, beaver, porcupine, capybara","priority":"high"},
+    {"family":"lagomorph","examples":"rabbit, hare, pika","priority":"high"},
+    {"family":"reptile","examples":"lizard, crocodilian, turtle, snake, chameleon","priority":"high"},
+    {"family":"amphibian","examples":"frog, toad, salamander, axolotl","priority":"medium"},
+    {"family":"insectoid","examples":"ant, bee, moth, beetle, mantis, cricket","priority":"high"},
+    {"family":"arachnid","examples":"spider, scorpion, mite","priority":"medium"},
+    {"family":"cephalopod","examples":"octopus, squid, cuttlefish, nautilus","priority":"high"},
+    {"family":"aquatic-vertebrate","examples":"shark, ray, bony fish, eel, cetacean","priority":"high"},
+    {"family":"proboscidean","examples":"elephant, mammoth","priority":"medium"},
+    {"family":"ursid","examples":"bear, panda","priority":"medium"},
+    {"family":"mustelid","examples":"otter, badger, ferret, wolverine","priority":"medium"},
+    {"family":"bovid","examples":"cattle, goat, sheep, antelope, buffalo","priority":"medium"},
+    {"family":"equid","examples":"horse, zebra, donkey","priority":"medium"},
+    {"family":"suiform","examples":"pig, boar, peccary, hippo","priority":"medium"},
+    {"family":"marsupial","examples":"kangaroo, koala, wombat, opossum, glider","priority":"medium"},
+    {"family":"monotreme","examples":"platypus, echidna","priority":"low"},
+    {"family":"primate","examples":"ape, monkey, lemur, tarsier","priority":"medium"},
+    {"family":"edentate","examples":"sloth, anteater, armadillo","priority":"low"},
+    {"family":"mollusk-other","examples":"gastropod, bivalve","priority":"low"},
+    {"family":"crustacean","examples":"crab, lobster, shrimp, isopod","priority":"medium"}
+  ]
+}

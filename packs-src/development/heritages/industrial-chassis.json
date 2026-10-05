@@ -1,0 +1,59 @@
+{
+  "_id": "IszQEcCXRilNxKYq",
+  "img": "systems/sf2e/icons/default-icons/heritage.svg",
+  "name": "Chasis industrial",
+  "system": {
+    "ancestry": {
+      "name": "SRO",
+      "slug": "sro",
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.iTcQTEe20B06FR6G"
+    },
+    "description": {
+      "value": "<p>Herencia de desarrollo. {\"trainedSkill\":\"Crafting\",\"fallbackLore\":\"Technology Lore\"}</p><p>Development heritage. {\"trainedSkill\":\"Crafting\",\"fallbackLore\":\"Technology Lore\"}</p>"
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.crafting.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": []
+    },
+    "slug": "industrial-chassis",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Chasis industrial",
+          "description": "Herencia de desarrollo. {\"trainedSkill\":\"Crafting\",\"fallbackLore\":\"Technology Lore\"}"
+        },
+        "en": {
+          "name": "Industrial Chassis",
+          "description": "Development heritage. {\"trainedSkill\":\"Crafting\",\"fallbackLore\":\"Technology Lore\"}"
+        }
+      }
+    }
+  }
+}

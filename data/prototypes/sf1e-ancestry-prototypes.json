@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "status": "development-only-not-loaded-by-foundry",
+  "licenseGate": "Names and final implementations remain blocked until Paizo licensed-material review is complete.",
+  "designRules": [
+    "No SF1e numerical bonus is converted directly.",
+    "Each base ancestry receives at most one major feature plus ordinary senses and movement.",
+    "Features with encounter-changing action economy are placed in feats.",
+    "Cultural behavior is never treated as biological destiny.",
+    "Divine terminology is translated into belief, ritual, psionics, technology, or finite cosmic phenomena."
+  ],
+  "prototypes": [
+    {
+      "id": "sro-development-prototype",
+      "sourceName": "SRO",
+      "balanceReferences": ["Android", "Astrazoan"],
+      "base": {"hp":8,"size":"medium","speed":25,"hands":2,"vision":"darkvision","boosts":["free","free"],"flaw":null,"traits":["construct","sro"]},
+      "baselineFeature": "Living Machine: remains compatible with ordinary healing and repair; construct immunities require a dedicated rules audit.",
+      "heritageSeeds": [
+        {"name":"Compact Chassis","mechanic":"CreatureSize small"},
+        {"name":"Industrial Chassis","mechanic":"trained Crafting and a noncombat integrated tool"},
+        {"name":"Sealed Chassis","mechanic":"environmental breathing protection; vacuum immunity requires balance review"}
+      ],
+      "featSeeds": ["Reconfigurable Component","Emergency Repair Circuit","Modular Locomotion"],
+      "openQuestions": ["Whether the construct trait itself grants excessive immunities", "Whether darkvision should move to a heritage"]
+    },
+    {
+      "id": "gray-development-prototype",
+      "sourceName": "Gray",
+      "balanceReferences": ["Contemplative", "Urog"],
+      "base": {"hp":6,"size":"small","speed":25,"hands":2,"vision":"darkvision","boosts":["Intelligence","Charisma","free"],"flaw":"Strength","traits":["gray","humanoid"]},
+      "baselineFeature": "Limited Telepathy: 30 feet, shared language, communication without thought reading.",
+      "heritageSeeds": [
+        {"name":"Phase-Touched","mechanic":"minor force or incorporeal resistance; full reaction deferred to a feat"},
+        {"name":"Deep Sensor","mechanic":"imprecise thoughtsense with short range"},
+        {"name":"Mnemonic","mechanic":"trained Occultism and memory-focused skill benefit"}
+      ],
+      "featSeeds": ["Momentary Phase","Psychic Intrusion","Clinical Calm"],
+      "openQuestions": ["Darkvision plus telepathy may require lowering another heritage benefit"]
+    },
+    {
+      "id": "reptoid-development-prototype",
+      "sourceName": "Reptoid",
+      "balanceReferences": ["Astrazoan", "Vesk"],
+      "base": {"hp":8,"size":"medium","speed":25,"hands":2,"vision":"low-light","boosts":["Strength","Charisma","free"],"flaw":"Dexterity","traits":["humanoid","reptoid","shapechanger"]},
+      "baselineFeature": "Prepared Identity: Change Shape into one configured humanoid identity; changing the stored identity requires downtime.",
+      "heritageSeeds": [
+        {"name":"Clawed","mechanic":"1d6 slashing finesse unarmed Strike"},
+        {"name":"Cold-Blooded","mechanic":"bounded resistance to poison or mental effects, not both"},
+        {"name":"Social Infiltrator","mechanic":"trained Deception and disguise support"}
+      ],
+      "featSeeds": ["Rapid Reconfiguration","Borrowed Mannerisms","Defensive Molting"],
+      "openQuestions": ["Prepared Identity action wording must remain distinct from Astrazoan Change Shape"]
+    },
+    {
+      "id": "verthani-development-prototype",
+      "sourceName": "Verthani",
+      "balanceReferences": ["Android", "Astrazoan"],
+      "base": {"hp":8,"size":"medium","speed":25,"hands":2,"vision":"low-light","boosts":["Constitution","Intelligence","free"],"flaw":"Strength","traits":["humanoid","verthani"]},
+      "baselineFeature": "Chromatophore Control: a bounded circumstance bonus to Hide after remaining still and exposing sufficient skin.",
+      "heritageSeeds": [
+        {"name":"Augmented","mechanic":"augmentation support without granting a free item or unrestricted extra slot"},
+        {"name":"Chromatic Communicator","mechanic":"visual signaling and social skill support"},
+        {"name":"Terminator-Warden","mechanic":"environmental adaptation to heat, cold, or radiation"}
+      ],
+      "featSeeds": ["Active Camouflage","Adaptive Implant Housing","Aether Navigator"],
+      "openQuestions": ["Exact augmentation interaction depends on final SF2e augmentation slot rules"]
+    },
+    {
+      "id": "witchwyrd-development-prototype",
+      "sourceName": "Witchwyrd",
+      "balanceReferences": ["Kasatha", "Izalguun"],
+      "base": {"hp":6,"size":"medium","speed":25,"hands":4,"vision":"darkvision","boosts":["Intelligence","Charisma","free"],"flaw":"Constitution","traits":["humanoid","witchwyrd"]},
+      "baselineFeature": "Four-Armed: one active pair of hands, switched using the standard SF2e action.",
+      "heritageSeeds": [
+        {"name":"Force-Resonant","mechanic":"minor force resistance with absorption deferred to a feat"},
+        {"name":"Far Trader","mechanic":"trained Society or Diplomacy plus trade lore"},
+        {"name":"Planar Wayfarer","mechanic":"short-range environmental or dimensional sense"}
+      ],
+      "featSeeds": ["Absorb Force","Return the Bolt","Many-Handed Appraisal"],
+      "openQuestions": ["Four arms and darkvision consume most of the base ancestry budget", "An original public-facing name may be required"]
+    },
+    {
+      "id": "nuar-development-prototype",
+      "sourceName": "Nuar",
+      "balanceReferences": ["Vesk", "Urog"],
+      "base": {"hp":8,"size":"medium","speed":25,"hands":2,"vision":"darkvision","boosts":["Strength","Intelligence","free"],"flaw":"Dexterity","traits":["humanoid","nuar"]},
+      "baselineFeature": "Horns: 1d6 piercing unarmed Strike with shove or another single maneuver trait after playtest.",
+      "heritageSeeds": [
+        {"name":"Labyrinthine Mind","mechanic":"trained Survival and navigation support"},
+        {"name":"Heavy-Horned","mechanic":"alternative horn trait focused on charging"},
+        {"name":"Void-Hardened","mechanic":"environmental resistance without full vacuum immunity"}
+      ],
+      "featSeeds": ["Pattern Recall","Driving Charge","Maze Walker"],
+      "openQuestions": ["A 30-foot speed may replace one heritage benefit after playtest", "Shove versus forceful horn trait"]
+    }
+  ]
+}

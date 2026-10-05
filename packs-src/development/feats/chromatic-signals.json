@@ -1,0 +1,67 @@
+{
+  "_id": "lh8q1WTHtKgF1tAm",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Senales cromaticas",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You can communicate simple silent messages visually to creatures trained in Visual Communication Lore within 60 feet. Gain a +1 circumstance bonus when Aiding a visual social check.</p><p>You can communicate simple silent messages visually to creatures trained in Visual Communication Lore within 60 feet. Gain a +1 circumstance bonus when Aiding a visual social check.</p>"
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "verthani"
+      ]
+    },
+    "slug": "chromatic-signals",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Senales cromaticas",
+          "description": "You can communicate simple silent messages visually to creatures trained in Visual Communication Lore within 60 feet. Gain a +1 circumstance bonus when Aiding a visual social check."
+        },
+        "en": {
+          "name": "Chromatic Signals",
+          "description": "You can communicate simple silent messages visually to creatures trained in Visual Communication Lore within 60 feet. Gain a +1 circumstance bonus when Aiding a visual social check."
+        }
+      }
+    }
+  }
+}

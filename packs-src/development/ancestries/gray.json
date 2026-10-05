@@ -1,0 +1,93 @@
+{
+  "_id": "xA5KlsivZGyGAaB6",
+  "img": "systems/sf2e/icons/default-icons/ancestry.svg",
+  "name": "Gray",
+  "system": {
+    "additionalLanguages": {
+      "count": 0,
+      "custom": "",
+      "value": []
+    },
+    "boosts": {
+      "0": {
+        "value": "int"
+      },
+      "1": {
+        "value": "cha"
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "description": {
+      "value": "<p>Prototipo mecanico de desarrollo. Rasgo base: Limited Telepathy: 30 feet, shared language, communication without thought reading.</p><p>Development mechanical prototype. Baseline feature: Limited Telepathy: 30 feet, shared language, communication without thought reading.</p>"
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "str"
+        ]
+      }
+    },
+    "hands": 2,
+    "hp": 6,
+    "items": {},
+    "languages": {
+      "custom": "",
+      "value": [
+        "common"
+      ]
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "reach": 5,
+    "rules": [],
+    "size": "sm",
+    "speed": 25,
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "gray",
+        "humanoid"
+      ]
+    },
+    "vision": "darkvision",
+    "slug": "gray",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "ancestry",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Gray",
+          "description": "Prototipo mecanico de desarrollo. Rasgo base: Limited Telepathy: 30 feet, shared language, communication without thought reading."
+        },
+        "en": {
+          "name": "Gray",
+          "description": "Development mechanical prototype. Baseline feature: Limited Telepathy: 30 feet, shared language, communication without thought reading."
+        }
+      }
+    }
+  }
+}

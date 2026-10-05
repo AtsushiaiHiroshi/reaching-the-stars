@@ -1,0 +1,2 @@
+packs/**/*.ldb binary
+packs/**/MANIFEST-* binary

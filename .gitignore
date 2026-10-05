@@ -1,0 +1,14 @@
+# Local development and generated artifacts
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+tmp/
+output/
+dist/
+*.zip
+
+# Foundry/LevelDB transient files if packs are later created locally
+packs/**/LOCK
+packs/**/LOG
+packs/**/LOG.old

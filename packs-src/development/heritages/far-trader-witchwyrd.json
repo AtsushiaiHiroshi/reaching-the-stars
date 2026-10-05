@@ -1,0 +1,59 @@
+{
+  "_id": "DtxAeqNJhJwcKvxc",
+  "img": "systems/sf2e/icons/default-icons/heritage.svg",
+  "name": "Witchwyrd mercader lejano",
+  "system": {
+    "ancestry": {
+      "name": "Witchwyrd",
+      "slug": "witchwyrd",
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.oLUBlTtvVSE8AqAp"
+    },
+    "description": {
+      "value": "<p>Herencia de desarrollo. {\"trainedSkill\":\"Society\",\"fallbackLore\":\"Trade Lore\"}</p><p>Development heritage. {\"trainedSkill\":\"Society\",\"fallbackLore\":\"Trade Lore\"}</p>"
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.society.rank",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": []
+    },
+    "slug": "far-trader-witchwyrd",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Witchwyrd mercader lejano",
+          "description": "Herencia de desarrollo. {\"trainedSkill\":\"Society\",\"fallbackLore\":\"Trade Lore\"}"
+        },
+        "en": {
+          "name": "Far-Trader Witchwyrd",
+          "description": "Development heritage. {\"trainedSkill\":\"Society\",\"fallbackLore\":\"Trade Lore\"}"
+        }
+      }
+    }
+  }
+}

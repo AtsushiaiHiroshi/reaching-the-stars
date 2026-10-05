@@ -1,0 +1,67 @@
+{
+  "_id": "2e6EVZyhFF4ZciVs",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "name": "Carga arrolladora",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Stride twice and make a horn Strike. Apply your multiple attack penalty only after completing the activity.</p><p>Stride twice and make a horn Strike. Apply your multiple attack penalty only after completing the activity.</p>"
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "nuar"
+      ]
+    },
+    "slug": "driving-charge",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Carga arrolladora",
+          "description": "Stride twice and make a horn Strike. Apply your multiple attack penalty only after completing the activity."
+        },
+        "en": {
+          "name": "Driving Charge",
+          "description": "Stride twice and make a horn Strike. Apply your multiple attack penalty only after completing the activity."
+        }
+      }
+    }
+  }
+}

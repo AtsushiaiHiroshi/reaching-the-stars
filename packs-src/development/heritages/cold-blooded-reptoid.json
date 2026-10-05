@@ -1,0 +1,67 @@
+{
+  "_id": "dDma6wBtmeRqNRza",
+  "img": "systems/sf2e/icons/default-icons/heritage.svg",
+  "name": "Reptoid de sangre fria",
+  "system": {
+    "ancestry": {
+      "name": "Reptoid",
+      "slug": "reptoid",
+      "uuid": "Compendium.reaching-the-stars.rts-ancestries.Item.dD0onQDdO9GLr6tJ"
+    },
+    "description": {
+      "value": "<p>Herencia de desarrollo. {\"choice\":\"poison or mental\",\"saveBonus\":1,\"bonusType\":\"circumstance\"}</p><p>Development heritage. {\"choice\":\"poison or mental\",\"saveBonus\":1,\"bonusType\":\"circumstance\"}</p>"
+    },
+    "publication": {
+      "license": "Custom",
+      "remaster": true,
+      "title": "Reaching the Stars (Development)"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:poison",
+              "item:trait:mental"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "uncommon",
+      "value": []
+    },
+    "slug": "cold-blooded-reptoid",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "sf2e",
+    "systemVersion": "1.2.0"
+  },
+  "effects": [],
+  "flags": {
+    "reaching-the-stars": {
+      "development": true,
+      "localization": {
+        "es": {
+          "name": "Reptoid de sangre fria",
+          "description": "Herencia de desarrollo. {\"choice\":\"poison or mental\",\"saveBonus\":1,\"bonusType\":\"circumstance\"}"
+        },
+        "en": {
+          "name": "Cold-Blooded Reptoid",
+          "description": "Development heritage. {\"choice\":\"poison or mental\",\"saveBonus\":1,\"bonusType\":\"circumstance\"}"
+        }
+      }
+    }
+  }
+}
